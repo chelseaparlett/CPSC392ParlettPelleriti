@@ -54,14 +54,15 @@ There will also be  two in-class exams and take home projects and a final exam a
 
 ## Course Grade:
 ### Quizzes
-25%
+15%
 ### Homework
-30%
+25%
 ### Exam 1
-18%
-### Exam 2 (Final)
-22%
-
+20%
+### Exam 2
+20%
+### Final
+20%
 
 ## Collaboration Policy:
 You have much to learn from your classmates, and so I encourage you to discuss and study course material together. However, all work you submit for this course must be your own, and must be completed individually unless otherwise specified. More specifically, you may not present source code or programs copied from the Internet, other texts, other students, etc as your own work. Of course, you are free to use whatever reference materials you like, but please cite them in a README turned in with your assignments. I assume you are familiar with Chapman’s policy on academic misconduct is presented below and any incidents of academic misconduct or dishonesty will be dealt with severely in accordance with this policy.
