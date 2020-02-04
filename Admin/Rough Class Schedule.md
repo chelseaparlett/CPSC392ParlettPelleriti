@@ -4,6 +4,7 @@
 
 ## Week 1
 ### Class 0 -- Introduction and Admin
+* Assign HW 0 (Integrity)
 ### Class 1 -- *Guest Lecture*
 
 </br>
@@ -24,6 +25,7 @@
 
 ## Week 4
 ### Class 6 -- Linear Regression
+* HW1 Due
 ### Class 7 -- Linear Regression II
 * Quiz
 
@@ -31,6 +33,7 @@
 
 ## Week 5
 ### Class 8 -- Linear Regression III
+* HW2 Due
 ### Class 9 -- Logistic Regression
 * Quiz
 
