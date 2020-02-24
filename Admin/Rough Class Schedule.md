@@ -33,8 +33,8 @@
 
 ## Week 5
 ### Class 8 -- Linear Regression III
-* HW2 Due
 ### Class 9 -- Logistic Regression
+* HW2 Due
 * Quiz
 
 </br>
@@ -42,6 +42,7 @@
 ## Week 6
 ### Class 10 -- Logistic Regression II
 ### Class 11 -- Review
+* HW3 Due
 * Quiz
 
 </br>
