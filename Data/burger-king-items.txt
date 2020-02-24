@@ -1,0 +1,123 @@
+Item	Serving.size	Calories	Fat.Cal	Protein(g)	Fat(g)	Sat.Fat(g)	Trans.fat(g)	Chol(mg)	Sodium(mg)	Carbs(g)	Fiber(g)	Sugar(g)	Meat	Breakfast	Not Breakfast	CarbsxMeat
+Hamburger	109	260	90	13	10	4	0	35	490	28	1	6	1	0	1	28
+Cheeseburger	121	300	130	16	14	6	0	45	710	28	1	6	1	0	1	28
+Double_Hamburger	146	360	160	22	18	8	0	70	520	28	1	6	1	0	1	28
+Double_Cheeseburger	171	450	230	26	26	12	1	95	960	29	1	6	1	0	1	29
+Buck_Double	158	410	200	24	22	10	0.5	85	740	28	1	6	1	0	1	28
+Rodeo_Cheeseburger	128	350	160	16	17	7	0	45	600	37	2	9	1	0	1	37
+Bacon_Cheeseburger	126	330	150	18	16	7	0	55	810	28	1	6	1	0	1	28
+Double-Bacon_Cheeseburger	181	510	270	31	30	14	1	105	1150	29	1	7	1	0	1	29
+BK _Double_Stacker	173	560	320	30	36	15	1	110	1040	29	1	7	1	0	1	29
+BK _Triple_Stacker	227	740	450	43	50	22	1.5	165	1390	30	1	7	1	0	1	30
+BK _Quad_Stacker	282	920	570	58	63	28	2	220	1730	31	1	8	1	0	1	31
+Triple Whopper with Cheese	NA	1230	NA	71	82	32	2	225	1550	53	NA	11	1	0	1	53
+Whopper	NA	670	NA	28	40	11	1	75	980	51	NA	11	1	0	1	51
+Whopper with Cheese	NA	710	NA	30	43	14	1	85	1190	52	NA	11	1	0	1	52
+Double Whopper	NA	900	NA	47	57	19	1.5	140	980	51	NA	11	1	0	1	51
+Double Whopper with Cheese	NA	950	NA	50	61	22	1.5	150	1200	52	NA	11	1	0	1	52
+Triple Whopper	NA	1140	NA	67	75	27	2	205	1110	51	NA	11	1	0	1	51
+A1 _Steakhouse_XT	316	910	540	40	60	23	1	135	1790	42	4	10	1	0	1	42
+Steakhouse_XT	284	710	410	35	45	17	0	115	1200	40	2	9	1	0	1	40
+TENDERGRILL ChickenSandwich_on_ciabata	250	470	170	37	18	3.5	0	85	1100	40	2	7	1	0	1	40
+TENDERGRILL ChickenSandwich w/o_Mayo	236	360	60	37	7	1.5	0	75	1010	40	2	7	1	0	1	40
+TENDERCRISP _Chicken_Sandwich	284	800	410	32	46	8	0.5	70	1640	68	3	9	1	0	1	68
+TENDERCRISP _Chicken_Sandwichw/oMayo	256	590	200	31	22	4	0	55	1450	68	3	9	1	0	1	68
+Original_Chicken_Sandwich	218	630	350	24	39	7	0.5	65	1390	46	3	4	1	0	1	46
+Original_Chicken_Sandwichw/oMayo	190	420	140	24	16	3.5	0	45	1210	46	3	4	1	0	1	46
+AmericanOriginalChicken_Sandwich	271	730	420	29	47	12	1	85	1830	49	3	5	1	0	1	49
+OriginalChickenClubSandwich	256	690	390	29	43	9	0.5	75	1590	48	3	5	1	0	1	48
+ItalianOriginalChickenSandiwch	246	520	200	32	22	7	0	65	1670	50	3	5	1	0	1	50
+SpicyCHICK'NCRISP Sandwich	136	460	270	13	30	5	0	30	810	34	2	4	1	0	1	34
+SpicyCHICK'NCRISP Sandwichw/oMayo	114	300	110	12	12	2.5	0	20	670	35	2	4	1	0	1	35
+CHICKENTENDERS (4pc)	62	180	100	9	11	2	0	30	310	13	0	0	1	0	1	13
+CHICKENTENDERS (5pc)	78	230	120	11	13	2.5	0	35	380	16	0	0	1	0	1	16
+CHICKENTENDERS (6pc)	93	270	140	14	16	3	0	45	460	19	0	0	1	0	1	19
+CHICKENTENDERS (8pc)	123	360	190	18	21	4	0	60	610	25	0	0	1	0	1	25
+CHICKENTENDERS Sandwich	142	440	250	12	28	4.5	0	35	610	35	1	4	1	0	1	35
+KRAFT MacaroniandCheese	113	160	45	7	5	1.5	0	10	340	22	1	5	0	0	1	0
+Tacos(2)	174	330	200	14	23	8	0.5	30	750	18	5	4	1	0	1	18
+SpicyChickenBKWrapper	135	360	170	14	19	5	0	30	1010	32	2	0	1	0	1	32
+BK CHICKENFRIES(6pc)	85	250	130	14	15	2.5	0	30	820	16	1	1	1	0	1	16
+BK CHICKENFRIES(9pc)	127	380	200	21	22	4	0	40	1220	24	2	1	1	0	1	24
+BK CHICKENFRIES(12pc)	170	500	260	28	29	5	0	55	1630	32	3	1	1	0	1	32
+CountryPorkSandwich	298	810	378	29	42	15	0.0	75	1910	78	4	10	1	0	1	78
+BKBIGFISH Sandwich	248	640	280	23	31	5	0.5	45	1560	67	3	9	0	0	1	0
+BKBIGFISH Sandwich w/oTartarSauce	219	460	120	23	13	2.5	0	30	1320	64	3	6	0	0	1	0
+BKVEGGIE Burger	209	410	150	22	16	2.5	0	5	1030	44	7	8	0	0	1	0
+BKVEGGIE Burger w/Cheese	221	450	180	24	20	5	0	20	1250	44	7	8	0	0	1	0
+BKVEGGIE Burgerw/oMayo	198	320	70	22	7	1	0	0	960	43	7	8	0	0	1	0
+BK FreshAppleFries	57	25	0	0	0	0	0	0	0	6	1	5	0	0	1	0
+Motts' HarvestPlusApplesauce	108	50	0	0	0	0	0	0	0	13	1	11	0	0	1	0
+OnionRingsvalue	43	150	70	2	8	1.5	0	0	230	17	1	2	0	0	1	0
+OnionRingssmall	91	310	150	4	17	3	0	0	490	36	3	4	0	0	1	0
+OnionRingsmedium	117	400	190	6	21	3.5	0	0	630	47	4	5	0	0	1	0
+OnionRingslarge	142	490	230	7	26	4.5	0	0	770	57	5	7	0	0	1	0
+FrenchFriesvalue(Salted)	74	220	100	2	11	2.5	0	0	340	28	2	0	0	0	1	0
+FrenchFriessmall(Salted)	116	340	160	4	17	3.5	0	0	530	44	4	0	0	0	1	0
+FrenchFriesmedium(Salted)	148	440	200	5	22	4.5	0	0	670	56	5	0	0	0	1	0
+FrenchFries large(salted)	182	540	240	6	27	6	0	0	830	69	6	0	0	0	1	0
+MozzarellaSticks(4pc)	88	280	140	11	15	5	0	35	650	24	2	2	0	0	1	0
+TENDERGRILLChickenGardenSalad	286	230	70	34	8	3.5	0	85	930	9	3	3	1	0	1	9
+TENDERCRISP ChickenGardenSalad	284	410	200	27	23	6	0	65	1060	27	4	5	1	0	1	27
+GardenSalad(nochicken)	162	70	35	4	4	2.5	0	10	100	7	3	2	0	0	1	0
+SideSalad	99	40	20	3	2	1	0	5	45	2	1	0	0	0	1	0
+BKBreakfastBowl	243	540	370	24	42	13	0.5	375	1020	17	2	2	0	1	0	0
+BK BreakfastMuffinSandwich	137	410	230	17	26	9	0.5	125	860	24	1	1	0	1	0	0
+BK KidsBreakfastMuffinSandwich	93	240	100	9	11	4	0	95	550	23	1	2	0	1	0	0
+BkUltimateBreakfastPlatter	487	1310	650	32	72	26	1	455	2490	134	5	41	1	1	0	134
+BKBreakfastPlatter	301	810	480	25	54	22	1	360	1790	57	4	5	1	1	0	57
+BKBreakfastCiabattaClubSandwich	219	480	200	24	23	7	0	210	1270	41	2	9	1	1	0	41
+EnormousOmeletSandwich	266	760	266	35	44	15	1	405	1840	44	2	8	0	1	0	0
+CROISSAN'WICH Egg&Cheese	115	300	140	11	16	7	0	180	690	26	0	5	0	1	0	0
+CROISSAN'WICH Sausage&Cheese	106	380	220	14	24	10	0	50	780	26	0	3	1	1	0	26
+CROISSAN'WICH SausageEgg&Cheese	159	460	280	19	31	11	0.5	215	1000	27	0	5	1	1	0	27
+CROISSAN'WICH HamEgg&Cheese	149	330	150	18	17	7	0	200	1110	27	0	5	1	1	0	27
+"CROISSAN'WICH Bacon,Egg&Cheese"	122	340	170	14	19	8	0	190	840	26	0	5	1	1	0	26
+"DOUBLECROISSAN'WICHw/Sausage,Egg&Cheese"	215	680	440	29	49	18	1	255	1520	29	0	5	1	1	0	29
+"DOUBLECROISSAN'WICHw/BaconEgg,&Cheese"	142	420	230	20	25	11	0.5	210	1200	27	0	6	1	1	0	27
+DOUBLECROISSAN'WICHw/HamEgg&Cheese	196	410	190	26	22	10	0.5	230	1750	28	0	6	1	1	0	28
+"DOUBLECROISSAN'WICHw/SausageBaconEgg,&Cheese"	179	550	340	24	37	15	1	235	1360	28	0	5	1	1	0	28
+DOUBLECROISSAN'WICHw/HamBaconEgg&Cheese	169	420	210	23	24	10	0.5	220	1480	28	0	6	1	1	0	28
+"DOUBLECROISSAN'WICHw/HamSausageEgg,&Cheese"	206	550	320	28	35	14	1	240	1640	28	0	6	1	1	0	28
+CheesyBaconBKWRAPPER	137	380	210	13	24	7	0.5	185	1020	28	2	2	1	1	0	28
+SausageBiscuit	126	420	240	13	27	15	0.5	35	1090	32	1	3	1	1	0	32
+HamEgg&CheeseBiscuit	164	400	200	16	22	15	0.5	185	1430	33	1	5	1	1	0	33
+SausageEgg&CheeseBiscuit	191	550	330	20	37	19	1	210	1520	34	1	4	1	1	0	34
+BaconEgg&CheeseBiscuit	155	420	220	16	25	16	1	185	1360	34	1	5	1	1	0	34
+Pancakes(3)andBreakfastSyrup	187	500	170	7	19	4.5	0	95	700	77	1	36	0	1	0	0
+PancakePlatterw/Sausage&BreakfastSyrup	231	670	300	14	34	9	0	125	1010	78	1	36	1	1	0	78
+SideofEggs	96	160	110	10	12	3	0	330	320	3	0	2	0	1	0	0
+SideofSouthwestPotatoes	77	90	30	2	3.5	1	0	0	220	12	2	1	0	1	0	0
+HashBrownsSmall	84	250	150	2	16	3.5	0	0	410	24	3	0	0	1	0	0
+HashBrownsMedium	168	500	290	4	33	7	0	0	810	48	7	0	0	1	0	0
+HashBrownsLarge	224	670	390	5	44	9	0	0	1080	65	9	0	0	1	0	0
+MiniBlueberryBiscuitswithIcing	113	390	140	5	15	15	0	0	830	57	1	30	0	1	0	0
+Ciniminis(4)	108	400	160	7	18	7	0	20	380	52	2	19	0	1	0	0
+FrenchToastSticks(3piece)	65	230	100	3	11	2	0	0	260	29	1	8	0	1	0	0
+FrenchToastSticks(5piece)	109	380	160	5	18	3	0	0	430	49	2	13	0	1	0	0
+FrenchToastSticksPlatterw/bacon&Syrup	159	550	200	10	22	4.5	0	10	650	79	2	31	1	1	0	79
+FrenchToastSticksPlatterw/sausage&Syrup	193	670	300	13	33	8	0	35	760	80	2	30	1	1	0	80
+ScrambledEggPlatterw/bacon	237	630	340	22	38	9	0.5	375	1110	50	2	4	1	1	0	50
+ScrambledEggPlatterw/sausage	271	720	430	25	47	14	0	395	1230	50	3	4	1	1	0	50
+Biscuits(2)&SausageGravyPlatter	334	680	310	16	35	28	1.5	20	2350	76	2	6	1	1	0	76
+Biscuit_w/ChickenFri[er(ChickenBiscuit)	139	400	180	15	20	12	0	20	1320	39	1	3	1	1	0	39
+Biscuitw/BreakfastSteak	211	650	350	21	38	21	0.5	205	1780	50	2	5	1	1	0	50
+Biscuitw/CountryHam&EggandCheese	183	470	240	18	26	16	0.5	210	2010	33	1	4	1	1	0	33
+"BreakfastBurritoSausage,Egg,Cheese&Salsa"	168	440	260	20	29	10	0.5	175	1120	25	1	2	1	1	0	25
+"BreakfastBurritoPotatoEgg,Cheese&Salsa"	141	320	160	13	17	6	0	140	900	29	2	2	1	1	0	29
+"BreakfastBurritoBacon,EggCheese,&Salsa"	129	300	140	15	16	6	0	145	910	24	1	2	1	1	0	24
+DanishApple	128	470	200	6	22	10	0	5	520	62	1	29	0	0	1	0
+MuffinBlueberry	113	410	210	5	23	4.5	0	85	400	48	2	35	0	0	1	0
+DutchApplePie	107	320	130	2	14	6	0	0	300	46	1	23	0	0	1	0
+HERSHEY 'SSundaePie	79	300	160	3	18	12	0	10	210	31	1	22	0	0	1	0
+FUNNELCAKESTICKS(9pc)	85	300	100	2	11	3	0	10	210	49	1	30	0	0	1	0
+SoftServeCone	133	180	65	4	7	4	0	25	110	29	0	24	0	0	1	0
+CaramelSundae	173	300	60	5	7	5	0	25	260	55	0	39	0	0	1	0
+ChocolateFudgeSundae	173	290	70	6	8	7	0	20	230	53	1	45	0	0	1	0
+ChocolateChipCookies(2)	76	330	140	3	15	8	0	20	250	47	1	29	0	0	1	0
+OatmealRaisinCookies(2)	76	310	120	4	13	8	0	20	260	46	3	26	0	0	1	0
+FatFREEMilk(8oz)		90	0	9	0	0	0	5	125	13	0	12	0	0	1	0
+1%LowFatChocolateMilk(8oz)		160	25	8	2.5	1.5	0	15	150	26	1	25	0	0	1	0
+VanillaMilkShake12fl oz		350	100	8	11	8	0	40	290	57	0	48	0	0	1	0
+ChocolateMilkShake12fl oz		400	100	8	11	8	0	40	330	68	0	58	0	0	1	0
+StrawberryMilkShake12fl oz		390	100	8	11	8	0	40	290	68	0	57	0	0	1	0
