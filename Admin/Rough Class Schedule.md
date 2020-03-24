@@ -69,6 +69,7 @@
 
 ## Week 10
 ### Class 18 -- K-Means
+* HW 4 due
 ### Class 19 -- Expectation Maximization
 * Quiz
 
@@ -77,6 +78,7 @@
 ## Week 11
 ### Class 20 -- Hierarchical Clustering
 ### Class 21 -- Review
+* HW 5 due
 * Quiz
 
 </br>
@@ -90,6 +92,7 @@
 ## Week 13
 ### Class 24 -- Dimensionality Reduction II (Regularization)
 ### Class 25 -- Neural Networks I
+* HW 6 due
 * Quiz
 
 </br>
