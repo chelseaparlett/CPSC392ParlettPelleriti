@@ -92,11 +92,11 @@
 ## Week 13
 ### Class 24 -- Dimensionality Reduction II (Regularization)
 ### Class 25 -- Neural Networks I
-* HW 6 due
 * Quiz
 
 </br>
 
 ## Week 14
 ### Class 26 -- Neural Networks II
+* HW 6 due
 ### Class 27 -- Review + Project
