@@ -1,12 +1,10 @@
-# CPSC 392 --  Data Science
-# Spring '20
+# CPSC 392| Data Science
+# Fall '20
 # Syllabus
 
 ## Instructor: Prof. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture: MW 4pm-5:15pm
-## Office Hours: MW 5:15-6pm, near Keck 130, and by appointment (in person or Skype)
-## TLT Office Hours
-* [Here](https://www.chapman.edu/students/academic-resources/tutoring-center/_files/tutoring-schedules/cpsc-230.pdf)
+## Lecture: MW 1pm-2:15pm, 2:30pm-3:45pm, 5:30pm-6:45pm
+## Office Hours: TBD
 ## INSTALLS
 
 * [Install Python](https://www.anaconda.com/download/#macos)
