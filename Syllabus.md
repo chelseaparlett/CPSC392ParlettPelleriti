@@ -36,7 +36,7 @@ CPSC 230.
 CPSC 392 is a 3 unit course.
 
 ## Required Text:
-Machine Learning: The Art and Science of Algorithms that Make Sense of Data, Peter Flach. Cambridge University Press, 2012.
+NONE.
 
 ##  Course materials:
 All course materials will be made available via Blackboard and/or Github
