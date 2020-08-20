@@ -1,0 +1,10 @@
+#answers
+InClass/Answers/*
+Tests_Private/*
+Assignments/Answers/*
+ProjectsAndExams/Quizzes/*
+InClass/Exercises/Old/*
+*/.DS_Store
+*/.Rhistory
+*/.ipynb_checkpoint
+.DS_Store
