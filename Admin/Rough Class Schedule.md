@@ -17,7 +17,7 @@
 </br>
 
 ## Week 3
-### Class 4 -- All the stuff you need to know (Math)
+### Class 4 -- All the stuff you need to know (Python)
 ### Class 5 -- Visualization
 * Quiz
 
@@ -91,7 +91,7 @@
 
 ## Week 13
 ### Class 24 -- Dimensionality Reduction II (Regularization)
-### Class 25 -- Neural Networks I
+### Class 25 -- Neural Networks
 * Quiz
 
 </br>
