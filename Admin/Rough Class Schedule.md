@@ -4,36 +4,36 @@
 
 ## Week 1
 ### Class 0 -- Introduction and Admin
-* Assign HW 0 (Integrity)
-### Class 1 -- *Guest Lecture*
+### Class 1 -- Debugging Basics
+* HW0 Due
 
 </br>
 
 ## Week 2
-### Class 2 -- All the stuff you need to know
-### Class 3 -- All the stuff you need to know II
+### Class 2 -- Labor Day
+### Class 3 -- All the stuff you need to know (Math)
 * Quiz
 
 </br>
 
 ## Week 3
-### Class 4 -- Visualization
-### Class 5 -- Visualization II
+### Class 4 -- All the stuff you need to know (Math)
+### Class 5 -- Visualization
 * Quiz
 
 </br>
 
 ## Week 4
-### Class 6 -- Linear Regression
+### Class 6 -- Visualization II
 * HW1 Due
-### Class 7 -- Linear Regression II
+### Class 7 -- Linear Regression I
 * Quiz
 
 </br>
 
 ## Week 5
-### Class 8 -- Linear Regression III
-### Class 9 -- Logistic Regression
+### Class 8 -- Linear Regression II
+### Class 9 -- Logistic Regression I
 * HW2 Due
 * Quiz
 
@@ -61,8 +61,8 @@
 </br>
 
 ## Week 9
-### Class 16 -- Naive Bayes
-### Class 17 -- K-Nearest Neighbor
+### Class 16 -- K-Nearest Neighbor
+### Class 17 -- Data Science Ethics
 * Quiz
 
 </br>
@@ -97,6 +97,6 @@
 </br>
 
 ## Week 14
-### Class 26 -- Neural Networks II
+### Class 26 -- Data Science Communication
 * HW 6 due
 ### Class 27 -- Review + Project
