@@ -12,7 +12,7 @@
 * [Slack](): A place to ask me questions, meet with other students, share fun data sets...etc.
 * HP Smart [Apple](https://apps.apple.com/us/app/hp-easy-scan/id967004861?mt=12) [Android](https://play.google.com/store/apps/details?id=com.hp.printercontrol&hl=en_US): An app that will let you "scan" things to PDF using the camera on your phone/tablet. Great for sending me signed documents, or other important files. 
 
-## Zoom Ettiquite
-* Mute your microphone when you're not speaking
-* Set your avatar/profile image to be a picture of you, or a bitmoji of you (it really helps make it feel like we're not talking to an empty room!)
+## Zoom Etiquitte
+* *Mute* your microphone when you're not speaking
+* Set your avatar/profile image to be a *picture of you*, or a bitmoji of you (it really helps make it feel like we're not talking to an empty room!)
 * Wear appropriate clothing if turning on camera (camera not required during class sessions)
