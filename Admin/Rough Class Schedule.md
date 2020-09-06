@@ -25,8 +25,8 @@
 
 ## Week 4
 ### Class 6 -- Visualization II
-* HW1 Due
 ### Class 7 -- Linear Regression I
+* HW1 Due
 * Quiz
 
 </br>
