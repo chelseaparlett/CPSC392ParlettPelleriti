@@ -5,6 +5,7 @@
 * [More in depth book](https://link.springer.com/book/10.1007/978-0-387-84858-7)
 
 ## Resources
+* [Lecture Playlist](https://www.youtube.com/playlist?list=PLmxpwhh4FDm5zuA_63jV6iiz5wrg76UHV)
 * [Late Days Google Form](https://forms.gle/M9WPuLp5HdM74m5v8)
 * [Twitch Stream](twitch.tv/chelseaparlett)
 * [Google Colab](https://colab.research.google.com/): a shareable online jupyter notebook. Like google docs for code (but instead of being able to see changes live, you can only see other people's changes when you save and re-open notebook). Great for collabing with other people, or for storing your code online.
