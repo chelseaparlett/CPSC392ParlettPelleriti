@@ -4,7 +4,7 @@
 
 ## Instructor: Prof. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
 ## Lecture: MW 1pm-2:15pm, 2:30pm-3:45pm, 5:30pm-6:45pm
-## Office Hours: TBD
+## Office Hours: MW 4-5:30pm, T 1-2:30pm
 ## INSTALLS
 
 * [Install Python](https://www.anaconda.com/download/#macos)
@@ -46,7 +46,7 @@ Stuff happens. So, you have 3 "extra days" that you can use, no questions asked,
 
 All programs must be written in Python unless otherwise specified. Grading will be based on correctness, elegance of solution, and style (comments, naming conventions, etc.)
 
-There will be occasional quizzes on the reading and lecture material, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
+There will be occasional quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
 
 There will also be  two in-class exams and take home projects and a final exam and take home project, which must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
 
