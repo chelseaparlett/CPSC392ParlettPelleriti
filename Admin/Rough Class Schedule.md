@@ -69,14 +69,17 @@
 
 ## Week 10
 ### Class 18 -- K-Means
-* HW 4 due
+
 ### Class 19 -- Expectation Maximization
-* Quiz
+* Take-Home Quiz (Election)
+### Friday
+* HW 4 due
 
 </br>
 
 ## Week 11
 ### Class 20 -- Hierarchical Clustering
+* Peer Reviews for Quiz 8 Due
 ### Class 21 -- Review
 * HW 5 due
 * Quiz
