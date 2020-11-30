@@ -101,5 +101,4 @@
 
 ## Week 14
 ### Class 26 -- Data Science Communication
-* HW 6 due
 ### Class 27 -- Review + Project
