@@ -34,19 +34,19 @@ CPSC 230.
 CPSC 392 is a 3 unit course.
 
 ## Required Text:
-NONE.
+NONE. Optional Reading is linked on the Front Page of the Course GitHub.
 
 ##  Course materials:
-All course materials will be made available via Blackboard and/or Github
+All course materials will be made available via Canvas and/or Github
 
 ## Homework, Exams, and Grading (subject to change):
-Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at the beginning of class (assignments not due on a class day will be due by 11:59pm), and may be demonstrated to the instructor during the class session.
+Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at the beginning of class unless otherwise specified (assignments not due on a class day will be due by 11:59pm).
 
-Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). To qualify for an extra day, you must let me know BEFORE the assignment is due. Because of these 3 "extra days", late homework will NOT be accepted.
+Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). To qualify for an extra day, you must let me know *BEFORE the assignment is due*, and fill out the **Late Days Google Form**. Because of these 3 "extra days", late work will automatically be penalized a 1.5% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week.
 
 All programs must be written in Python unless otherwise specified. Grading will be based on correctness, elegance of solution, and style (comments, naming conventions, etc.)
 
-There will be occasional quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
+There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
 
 There will also be  two in-class exams and take home projects and a final exam and take home project, which must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
 
@@ -59,7 +59,7 @@ There will also be  two in-class exams and take home projects and a final exam a
 20%
 ### Exam 2
 20%
-### Final
+### Final Project
 20%
 
 ## Collaboration Policy:
