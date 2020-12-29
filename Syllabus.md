@@ -3,13 +3,13 @@
 # Syllabus
 
 ## Instructor: Prof. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture: MW 1pm-2:15pm, 2:30pm-3:45pm, 5:30pm-6:45pm
-## Office Hours: MW 4-5:30pm, T 1-2:30pm
+## Lecture:
+## Office Hours:
 ## INSTALLS
 
 * [Install Python](https://www.anaconda.com/download/#macos)
 * [Get sklearn](https://scikit-learn.org/stable/install.html)
-* [Install Atom](https://atom.io/)
+
 
 ## Course Learning Outcomes
  A student successfully completing this course will be able to:
@@ -49,6 +49,9 @@ All programs must be written in Python unless otherwise specified. Grading will 
 There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
 
 There will also be  two in-class exams and take home projects and a final exam and take home project, which must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
+
+## Course Communication
+Information for the course will mainly be disseminated through our Course Slack. YOU MUST join the course slack channel and check for updates. Email through Canvas may also be used.
 
 ## Course Grade:
 ### Quizzes
