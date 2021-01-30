@@ -7,8 +7,8 @@
 ## Office Hours:
 ## INSTALLS
 
-* [Install Python](https://www.anaconda.com/download/#macos)
-* [Get sklearn](https://scikit-learn.org/stable/install.html)
+* [Install Python](https://www.python.org/downloads/)
+* Other Python packaged we will use: [jupyterlabs](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), sklearn, plotnine, pandas, numpy, keras, tensorflow.
 
 
 ## Course Learning Outcomes
@@ -40,18 +40,18 @@ NONE. Optional Reading is linked on the Front Page of the Course GitHub.
 All course materials will be made available via Canvas and/or Github
 
 ## Homework, Exams, and Grading (subject to change):
-Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at the beginning of class unless otherwise specified (assignments not due on a class day will be due by 11:59pm).
+Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at 11:59pm (unless otherwise specified).
 
 Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). To qualify for an extra day, you must let me know *BEFORE the assignment is due*, and fill out the **Late Days Google Form**. Because of these 3 "extra days", late work will automatically be penalized a 1.5% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week.
 
-All programs must be written in Python unless otherwise specified. Grading will be based on correctness, elegance of solution, and style (comments, naming conventions, etc.)
+All programs must be written in Python unless otherwise specified. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.)
 
 There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
 
 There will also be  two in-class exams and take home projects and a final exam and take home project, which must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
 
 ## Course Communication
-Information for the course will mainly be disseminated through our Course Slack. YOU MUST join the course slack channel and check for updates. Email through Canvas may also be used.
+Information for the course will mainly be disseminated through our Course Slack. YOU MUST join the course slack channel and check for updates. Email through Canvas may also be used. Materials will also be available through the course GitHub (https://github.com/cmparlettpelleriti/CPSC392ParlettPelleriti).
 
 ## Course Grade:
 ### Quizzes
