@@ -1,10 +1,10 @@
 # CPSC 392| Data Science
-# Fall '20
+# Spring '21
 # Syllabus
 
 ## Instructor: Prof. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture:
-## Office Hours:
+## Lecture: MW 1-2:15, 2:30-3:45 and TTh 2:30-3:45, 4:00-5:15
+## Office Hours: TBD
 ## INSTALLS
 
 * [Install Python](https://www.python.org/downloads/)
