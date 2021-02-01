@@ -6,15 +6,15 @@
 
 ## Week 1
 ### Class 0 -- Introduction and Admin
-### Class 1 -- Debugging Basics
+### Class 1 -- All the stuff you need to know (Python)
 ## Friday
 * HW0 Due
 
 </br>
 
 ## Week 2
-### Class 2 -- All the stuff you need to know (Math)
-### Class 3 -- All the stuff you need to know (Python)
+### Class 2 -- Debugging Basics
+### Class 3 -- All the stuff you need to know (Math)
 * Quiz
 
 </br>
