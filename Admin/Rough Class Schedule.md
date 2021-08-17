@@ -7,15 +7,15 @@
 ## Week 1
 ### Class 0 -- Introduction and Admin
 ### Class 1 -- All the stuff you need to know (Python)
-## Friday
-* HW0 Due
+
 
 </br>
 
 ## Week 2
-### Class 2 -- Debugging Basics
+### Class 2* -- Debugging Basics (Sections 01 and 02 will cover this during Class 1 and 3 Due to Labor Day)
 ### Class 3 -- All the stuff you need to know (Math)
 * Quiz
+
 
 </br>
 
@@ -23,6 +23,8 @@
 ### Class 4 -- Visualization
 ### Class 5 -- Visualization II
 * Quiz
+## Friday
+* HW0 Due
 
 </br>
 
@@ -59,7 +61,7 @@
 </br>
 
 ## Week 8
-### Class 14 -- K-Nearest Neighbor
+### Class 14 -- K-Nearest Neighbors
 ### Class 15 -- Data Science Ethics
 * Quiz
 ### Friday
@@ -77,12 +79,9 @@
 </br>
 
 ## Week 10
-### Class 18 -- DBSCAN/NBRC
+### Class 18 -- DBSCAN
 ### Class 19 -- Hierarchical Clustering
 * Quiz
-### Friday
-* HW 3 due
-
 
 </br>
 
@@ -96,18 +95,20 @@
 
 # Dimensionality Reduction, NNs, Communication
 ## Week 12
-### Class 22 -- Dimensionality Reduction I (PCA)
-### Class 23 -- Dimensionality Reduction II (Regularization)
+### Class 22 -- Dimensionality Reduction (PCA)
+### Class 23 -- Regularization (LASSO + Ridge)
 * Quiz
 
+</br>
+# Thanksgiving Break
 </br>
 
 ## Week 13
 ### Class 24 -- Neural Networks
-### Class 25 -- Gradient Based Methods
+### Class 25 -- Topics in Data Science
 * Quiz
 ### Friday
-* HW 4 Due
+* HW 3 Due
 
 </br>
 
