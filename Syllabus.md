@@ -1,10 +1,10 @@
 # CPSC 392| Data Science
-# Spring '21
+# FALL '21
 # Syllabus
 
-## Instructor: Prof. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture: MW 1-2:15, 2:30-3:45 and TTh 2:30-3:45, 4:00-5:15
-## Office Hours: M 11:15am-12:45pm; T 12:45pm-2:15pm; W 4pm-5:30pm; Th 12:45pm-2:15pm
+## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
+## Lecture: MW 2:30-3:45, 4:00-5:15 and TTh 2:30-3:45
+## Office Hours: TBD
 ## INSTALLS
 
 * [Install Python](https://www.python.org/downloads/)
@@ -91,21 +91,10 @@ Religious Accommodation at Chapman University Consistent with our commitment of 
 This syllabus is subject to change. Updates will be posted on the course website.
 
 ## Fowler School of Engineering
-### Fall 2020 – Addendum to Course Syllabi
+### Fall 2021-- Addendum to Course Syllabi
 Due to the continuing COVID-19 Pandemic, the following items are in effect for courses offered by the Fowler School of Engineering, in addition to the policies and procedures detailed in individual course syllabi.
 
 ## Video Recording of Courses
-Software will be used to record live class discussions as needed to support course learning objectives. As a student in these courses, your participation in live class discussions will be recorded to assist those who cannot attend the live session, or to serve as a resource for those who would like to review content that was presented.  These recordings will be made available only to students who are enrolled in the class, and only during the period in which the course is offered.  All recordings will become unavailable to students in the class shortly after the course ends.  Students who prefer to participate via audio only will be allowed to disable their video camera so only audio will be captured. Please discuss this option with your instructor.
-
-## Remote Instruction
-Courses in the Fowler School of Engineering are designed to be highly flexible in order to allow students to complete requirements remotely and asynchronously, if needed. If you need to complete the course asynchronously, you should contact the instructor prior to the first week of class;
-Students will need to have a stable internet connection and computing platform to complete course requirements. A headset with microphone is highly recommended;
-Policies for remote attendance will be included in course syllabi. Please direct any questions or concerns to your instructor during the first week of class;
-Course instructors retain the autonomy to use whatever technologies they feel are appropriate to proctor examinations or assessments taken remotely. This includes requiring students to complete exams on camera using Zoom, etc;
-All office hours and small group meetings between students and faculty will be conducted remotely via Zoom, Teams, or other methods; details are included in course-specific syllabi;
-Course format may be subject to change with little to no notice, depending upon state, local, and University guidelines. If the course shifts to on-campus instruction, students will be able to complete course requirements remotely should they need to do so.
-Safety Protocols for on-campus instruction
-
-In response to the current COVID-19 pandemic, Chapman University has developed the CU Safely Back program (CUSBP) and mandatory safety measures (https://news.chapman.edu/coronavirus/). The University’s mandatory safety measures may be stricter than local, state or federal guidelines and may be subject to change at any time. Students are expected to adhere to the University’s safety measures while attending classes, including when entering and exiting classrooms, laboratories, or other instructional areas. Individual faculty may choose to have requirements for their courses that are stricter than the University’s. Safety precautions and procedures may change in response to emerging findings and the recommendations of scientific experts and authorities. Refusal to abide by the University’s mandatory safety measures or to the safety requirements specific to this course will result in your being asked to leave the area immediately, and may result in an administrative dismissal from this course.
+Software *may* be used to record live class discussions as needed to support course learning objectives. As a student in these courses, your participation in live class discussions will be recorded to assist those who cannot attend the live session, or to serve as a resource for those who would like to review content that was presented.  These recordings will be made available only to students who are enrolled in the class, and only during the period in which the course is offered.  All recordings will become unavailable to students in the class shortly after the course ends.  Students who prefer to participate via audio only will be allowed to disable their video camera so only audio will be captured. Please discuss this option with your instructor.
 
 The COVID-19 pandemic requires all of us to accept the possibility that changes in how this course is taught may be required and that some changes may occur with little or no notice. For example, some or all of the in-person aspects of a course may be shifted to remote instruction. If this occurs, you will be given clear instructions as to how to proceed. The uncertainty of the situation is not ideal for any of us.  We must all try to approach this situation with good-will, flexibility, and mutual understanding.
