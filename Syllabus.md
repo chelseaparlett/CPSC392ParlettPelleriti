@@ -4,7 +4,7 @@
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
 ## Lecture: MW 2:30-3:45, 4:00-5:15 and TTh 2:30-3:45
-## Office Hours: TBD
+## Office Hours: MW 10am-11am, W 6pm-7pm, TTh 11:30am-1pm
 ## INSTALLS
 
 * [Install Python](https://www.python.org/downloads/)
