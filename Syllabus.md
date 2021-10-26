@@ -4,7 +4,9 @@
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
 ## Lecture: MW 2:30-3:45, 4:00-5:15 and TTh 2:30-3:45
-## Office Hours: MW 10am-11am, W 6pm-7pm, TTh 11:30am-1pm
+## Office Hours: MW 10am-11am, W 6pm-7pm, TTh 11:20am-12:50pm
+(if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficient advance notice.)
+
 ## INSTALLS
 
 * [Install Python](https://www.python.org/downloads/)
@@ -40,15 +42,17 @@ NONE. Optional Reading is linked on the Front Page of the Course GitHub.
 All course materials will be made available via Canvas and/or Github
 
 ## Homework, Exams, and Grading (subject to change):
-Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at 11:59pm (unless otherwise specified).
+Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at 11:59pm (unless otherwise specified). Homework and Projects must be turned in with a README file as either a .txt or a .md file (see Admin Folder on GitHub for a template).
 
-Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). To qualify for an extra day, you must let me know *BEFORE the assignment is due*, and fill out the **Late Days Google Form**. Because of these 3 "extra days", late work will automatically be penalized a 1.5% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week.
+Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm.
+
+To qualify for an extra day, you must let me know *BEFORE the assignment is due*, and fill out the **Late Days Google Form** linked on the front page of our course GitHub. Because of these 3 "extra days", late work will automatically be penalized a 1.5% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week.
 
 All programs must be written in Python unless otherwise specified. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.)
 
 There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
 
-There will also be  two in-class exams and take home projects and a final exam and take home project, which must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
+There will also be two in-class exams and take home projects and a take home project, which must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
 
 ## Course Communication
 Information for the course will mainly be disseminated through our Course Slack. YOU MUST join the course slack channel and check for updates. Email through Canvas may also be used. Materials will also be available through the course GitHub (https://github.com/cmparlettpelleriti/CPSC392ParlettPelleriti).
@@ -85,7 +89,7 @@ https://www.chapman.edu/students/health-and-safety/psychological-counseling/
 Fostering a community of care that supports the success of students is essential to the values of Chapman University.  Occasionally, you may come across a student whose personal behavior concerns or worries you, either for the student’s well-being or yours.  In these instances, you are encouraged to contact the [Chapman University Student Concern Intervention Team](https://www.chapman.edu/students/health-and-safety/student-concern/index.aspx) who can respond to these concerns and offer assistance. While it is preferred that you include your contact information so this team can follow up with you, you can submit a report anonymously.  24-hour emergency help is also available through Public Safety at 714-997-6763.
 
 ## Religious Accommodation
-Religious Accommodation at Chapman University Consistent with our commitment of creating an academic community that is respectful of and welcoming to persons of differing backgrounds, we believe that every reasonable effort should be made to allow members of the university community to fulfill their obligations to the university without jeopardizing the fulfillment of their sincerely held religious obligations. Please review the syllabus early in the semester and consult with your faculty member promptly regarding any possible conflicts with major religious holidays, being as specific as possible regarding when those holidays are scheduled in advance and where those holidays constitute the fulfillment of your sincerely held religious beliefs.
+Religious Accommodation at Chapman University Consistent with our commitment of creating an academic community that is respectful of and welcoming to persons of differing backgrounds, we believe that every reasonable effort should be made to allow members of the university community to fulfill their obligations to the university without jeopardizing the fulfillment of their sincerely held religious obligations. Please review the syllabus early in the semester and consult with your faculty member promptly regarding any possible conflicts with major religious holidays, being as specific as possible regarding when those holidays are scheduled in advance and where those holidays constitute the fulfillment of your sincerely held religious beliefs. When dates of holidays are known in advance, you must notify me at least 7 days ahead of the necessary accomodation in order for us to plan together accordingly.
 
 ## Changes
 This syllabus is subject to change. Updates will be posted on the course website.
