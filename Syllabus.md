@@ -1,11 +1,11 @@
 # CPSC 392| Data Science
-# FALL '21
+# SPRING '22
 # Syllabus
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture: MW 2:30-3:45, 4:00-5:15 and TTh 2:30-3:45
-## Office Hours: MW 10am-11am, W 6pm-7pm, TTh 11:20am-12:50pm
-(if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficient advance notice.)
+## Lecture: MW 2:30-3:45, 4:00-5:15 and TTh 2:30-3:45, 4:00-5:15
+## Office Hours: TBD
+(if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
 ## INSTALLS
 
@@ -14,10 +14,14 @@
 
 
 ## Course Learning Outcomes
- A student successfully completing this course will be able to:
- 1.	Students will have mastered the foundational principles of computing and problem solving
- 2.	Students will be able to utilize design and implementation practices in traditional and emerging technology settings
- 3.	Students will be able to present technical  information in both oral and written formats
+By the end of the semester the students should
+1. Understand computational issues related to data mining on the large scale.
+2. Enumerate standard algorithms for supervised and unsupervised learning
+3. Perform exploratory data analysis and visualization
+4. Formulate techniques for outlier detection and data cleaning for domain-specific data sets
+5. Carry out statistical analysis of data
+8. Analyze data for patterns
+9. Build statistical models of large data sets
 
 ## Program Learning Outcomes
 The Chapman experience creates outcomes which are consistent with our identity. Similar to the General Education program, each degree program, or major, at Chapman has a unique set of learning outcomes, or student abilities that are not only related to Chapman's institutional mission and goals, but also unique to the student's discipline or field of study. For more information, [Fowler School of Engineering Program Learning Outcomes](https://docs.google.com/document/d/1OESCtPUolnWFV_qRFuRzNrzxmUtYr5H-dFaYVmPUKY0/edit?usp=sharing).
@@ -44,15 +48,20 @@ All course materials will be made available via Canvas and/or Github
 ## Homework, Exams, and Grading (subject to change):
 Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at 11:59pm (unless otherwise specified). Homework and Projects must be turned in with a README file as either a .txt or a .md file (see Admin Folder on GitHub for a template).
 
+### Late Days
 Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm.
 
-To qualify for an extra day, you must let me know *BEFORE the assignment is due*, and fill out the **Late Days Google Form** linked on the front page of our course GitHub. Because of these 3 "extra days", late work will automatically be penalized a 1.5% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week.
+To qualify for an extra day, you must let me know *BEFORE the assignment is due*, and fill out the **Late Days Google Form** linked on the front page of our course GitHub under Resources. Because of these "extra days", late work will automatically be penalized a 1% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.
 
+### Assignments
 All programs must be written in Python unless otherwise specified. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.)
 
+### Assessment Structure
 There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
 
-There will also be two in-class exams and take home projects and a take home project, which must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
+There will also be two in-class exams, two corresponding take home projects. In-class exams must be taken on the dates specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
+
+Finally there will NOT be a final exam, rather there will be a final project and presentation.
 
 ## Course Communication
 Information for the course will mainly be disseminated through our Course Slack. YOU MUST join the course slack channel and check for updates. Email through Canvas may also be used. Materials will also be available through the course GitHub (https://github.com/cmparlettpelleriti/CPSC392ParlettPelleriti).
@@ -89,17 +98,17 @@ https://www.chapman.edu/students/health-and-safety/psychological-counseling/
 Fostering a community of care that supports the success of students is essential to the values of Chapman University.  Occasionally, you may come across a student whose personal behavior concerns or worries you, either for the student’s well-being or yours.  In these instances, you are encouraged to contact the [Chapman University Student Concern Intervention Team](https://www.chapman.edu/students/health-and-safety/student-concern/index.aspx) who can respond to these concerns and offer assistance. While it is preferred that you include your contact information so this team can follow up with you, you can submit a report anonymously.  24-hour emergency help is also available through Public Safety at 714-997-6763.
 
 ## Religious Accommodation
-Religious Accommodation at Chapman University Consistent with our commitment of creating an academic community that is respectful of and welcoming to persons of differing backgrounds, we believe that every reasonable effort should be made to allow members of the university community to fulfill their obligations to the university without jeopardizing the fulfillment of their sincerely held religious obligations. Please review the syllabus early in the semester and consult with your faculty member promptly regarding any possible conflicts with major religious holidays, being as specific as possible regarding when those holidays are scheduled in advance and where those holidays constitute the fulfillment of your sincerely held religious beliefs. When dates of holidays are known in advance, you must notify me at least 7 days ahead of the necessary accomodation in order for us to plan together accordingly.
+Religious Accommodation at Chapman University Consistent with our commitment of creating an academic community that is respectful of and welcoming to persons of differing backgrounds, we believe that every reasonable effort should be made to allow members of the university community to fulfill their obligations to the university without jeopardizing the fulfillment of their sincerely held religious obligations. Please review the syllabus early in the semester and consult with your faculty member promptly regarding any possible conflicts with major religious holidays, being as specific as possible regarding when those holidays are scheduled in advance and where those holidays constitute the fulfillment of your sincerely held religious beliefs. When dates of holidays are known in advance, you must notify me at least 7 days ahead of the necessary accommodation in order for us to plan together accordingly.
 
 ## Changes
 This syllabus is subject to change. Updates will be posted on the course website.
 
 ## Fowler School of Engineering
-### Fall 2021-- Addendum to Course Syllabi
+### Spring 2022-- Addendum to Course Syllabi
 Due to the continuing COVID-19 Pandemic, the following items are in effect for courses offered by the Fowler School of Engineering, in addition to the policies and procedures detailed in individual course syllabi.
 
 ## Video Recording of Courses
-Software *may* be used to record live class discussions as needed to support course learning objectives. As a student in these courses, your participation in live class discussions will be recorded to assist those who cannot attend the live session, or to serve as a resource for those who would like to review content that was presented.  These recordings will be made available only to students who are enrolled in the class, and only during the period in which the course is offered.  All recordings will become unavailable to students in the class shortly after the course ends.  Students who prefer to participate via audio only will be allowed to disable their video camera so only audio will be captured. Please discuss this option with your instructor.
+Software *may* be used to record live class discussions as needed to support course learning objectives. As a student in these courses, your participation in live class discussions may be recorded to assist those who cannot attend the live session, or to serve as a resource for those who would like to review content that was presented.  These recordings will be made available only to students who are enrolled in the class, and only during the period in which the course is offered.  All recordings will become unavailable to students in the class shortly after the course ends.  Students who prefer to participate via audio only will be allowed to disable their video camera so only audio will be captured. Please discuss this option with your instructor.
 
 The COVID-19 pandemic requires all of us to accept the possibility that changes in how this course is taught may be required and that some changes may occur with little or no notice. For example, some or all of the in-person aspects of a course may be shifted to remote instruction. If this occurs, you will be given clear instructions as to how to proceed. The uncertainty of the situation is not ideal for any of us.  We must all try to approach this situation with good-will, flexibility, and mutual understanding.
 
