@@ -34,7 +34,7 @@ This course provides a survey of algorithms, tools, and techniques for computing
 
 
 ## Prerequisites:
-CPSC 230.
+CPSC 230, and MATH 203 OR MGSC 209.
 
 ## Units:
 CPSC 392 is a 3 unit course.
