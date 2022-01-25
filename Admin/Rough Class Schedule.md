@@ -7,12 +7,12 @@
 ## Week 1
 ### Class 0 -- Introduction and Admin
 ### Class 1 -- All the stuff you need to know (Python)
-
+* Quiz
 
 </br>
 
 ## Week 2
-### Class 2* -- Debugging Basics (Sections 01 and 02 will cover this during Class 1 and 3 Due to Labor Day)
+### Class 2 -- Debugging Basics
 ### Class 3 -- All the stuff you need to know (Math)
 * Quiz
 
@@ -23,8 +23,9 @@
 ### Class 4 -- Visualization
 ### Class 5 -- Visualization II
 * Quiz
+
 ## Friday
-* HW0 Due
+* HW0 Due (Academic Integrity Form)
 
 </br>
 
@@ -60,6 +61,10 @@
 * Quiz
 </br>
 
+</br>
+# Spring Break
+</br>
+
 ## Week 8
 ### Class 14 -- K-Nearest Neighbors
 ### Class 15 -- Data Science Ethics
@@ -93,19 +98,18 @@
 
 </br>
 
-# Dimensionality Reduction, NNs, Communication
+# Dimensionality Reduction, Regularization, NNs, Communication
 ## Week 12
 ### Class 22 -- Dimensionality Reduction (PCA)
 ### Class 23 -- Regularization (LASSO + Ridge)
 * Quiz
 
-</br>
-# Thanksgiving Break
-</br>
+
 
 ## Week 13
 ### Class 24 -- Neural Networks
 ### Class 25 -- Topics in Data Science
+* (Optional) Meet with Chelsea for Final Project Feedback
 * Quiz
 ### Friday
 * HW 3 Due
@@ -114,7 +118,9 @@
 
 ## Week 14
 ### Class 26 -- Data Science Communication
+* Meet with Chelsea for Feedback on Project Data Viz
 ### Class 27 -- Review + Project
+* Meet with Chelsea for Feedback on Analysis plan
 * Quiz
 
 ## Finals Week
