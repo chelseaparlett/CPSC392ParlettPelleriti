@@ -4,7 +4,7 @@
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
 ## Lecture: MW 2:30-3:45, 4:00-5:15 and TTh 2:30-3:45, 4:00-5:15
-## Office Hours: TBD
+## Office Hours: MW 10am-11:15am, TTh 1:45pm-2:30pm, M 5:15pm-6:15pm, W 6-7pm
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
 ## INSTALLS
