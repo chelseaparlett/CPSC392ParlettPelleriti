@@ -15,6 +15,8 @@
 ### Class 2 -- Debugging Basics
 ### Class 3 -- All the stuff you need to know (Math)
 * Quiz
+## Friday
+* HW0 Due (Audio of Name)
 
 
 </br>
