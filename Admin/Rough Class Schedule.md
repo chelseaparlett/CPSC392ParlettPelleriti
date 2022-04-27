@@ -119,9 +119,9 @@
 </br>
 
 ## Week 14
-### Class 26 -- Data Science Communication
+### Class 26 -- Review + Project + GUEST LECTURE on Causal Inference
 * Meet with Chelsea for Feedback on Project Data Viz
-### Class 27 -- Review + Project
+### Class 27 -- Data Science Communication
 * Meet with Chelsea for Feedback on Analysis plan
 * Quiz
 
