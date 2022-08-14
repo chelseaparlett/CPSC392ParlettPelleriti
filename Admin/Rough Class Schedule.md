@@ -63,9 +63,6 @@
 * Quiz
 </br>
 
-</br>
-# Spring Break
-</br>
 
 ## Week 8
 ### Class 14 -- K-Nearest Neighbors
@@ -106,7 +103,9 @@
 ### Class 23 -- Regularization (LASSO + Ridge)
 * Quiz
 
-
+</br>
+## Thanksgiving Break
+</br>
 
 ## Week 13
 ### Class 24 -- Neural Networks
@@ -119,7 +118,7 @@
 </br>
 
 ## Week 14
-### Class 26 -- Review + Project + GUEST LECTURE on Causal Inference
+### Class 26 -- Review + Project 
 * Meet with Chelsea for Feedback on Project Data Viz
 ### Class 27 -- Data Science Communication
 * Meet with Chelsea for Feedback on Analysis plan
