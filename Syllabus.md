@@ -1,10 +1,10 @@
 # CPSC 392| Data Science
-# SPRING '22
+# Fall '22
 # Syllabus
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture: MW 2:30-3:45, 4:00-5:15 and TTh 2:30-3:45, 4:00-5:15
-## Office Hours: MW 10am-11:15am, TTh 1:45pm-2:30pm, M 5:15pm-6:15pm, W 6-7pm
+## Lecture: MW 1-2:15 (01) and 2:30-3:45 (02), and TTh 2:30-3:45 (03)
+## Office Hours: MW 10am-11:15am, TTh 12:1pm-1pm, M 3:45pm-4:45pm, W 6-7pm
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
 ## INSTALLS
@@ -51,7 +51,7 @@ Homework will consist of assignments to reinforce material covered in class, and
 ### Late Days
 Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm.
 
-To qualify for an extra day, you must let me know *BEFORE the assignment is due*, and fill out the **Late Days Google Form** linked on the front page of our course GitHub under Resources. Because of these "extra days", late work will automatically be penalized a 1% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.
+To qualify for an extra day, you must fill out the **Late Days Google Form*  linked on the front page of our course GitHub under Resources *BEFORE the assignment is due*. Because of these "extra days", late work will automatically be penalized a 0.5% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.
 
 ### Assignments
 All programs must be written in Python unless otherwise specified. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.)
@@ -68,12 +68,12 @@ Information for the course will mainly be disseminated through our Course Slack.
 
 ## Course Grade:
 ### Quizzes
-15%
-### Homework
-25%
-### Exam 1
 20%
-### Exam 2
+### Homework
+20%
+### Exam 1 (includes project)
+20%
+### Exam 2 (includes project)
 20%
 ### Final Project
 20%
@@ -103,13 +103,3 @@ Religious Accommodation at Chapman University Consistent with our commitment of 
 ## Changes
 This syllabus is subject to change. Updates will be posted on the course website.
 
-## Fowler School of Engineering
-### Spring 2022-- Addendum to Course Syllabi
-Due to the continuing COVID-19 Pandemic, the following items are in effect for courses offered by the Fowler School of Engineering, in addition to the policies and procedures detailed in individual course syllabi.
-
-## Video Recording of Courses
-Software *may* be used to record live class discussions as needed to support course learning objectives. As a student in these courses, your participation in live class discussions may be recorded to assist those who cannot attend the live session, or to serve as a resource for those who would like to review content that was presented.  These recordings will be made available only to students who are enrolled in the class, and only during the period in which the course is offered.  All recordings will become unavailable to students in the class shortly after the course ends.  Students who prefer to participate via audio only will be allowed to disable their video camera so only audio will be captured. Please discuss this option with your instructor.
-
-The COVID-19 pandemic requires all of us to accept the possibility that changes in how this course is taught may be required and that some changes may occur with little or no notice. For example, some or all of the in-person aspects of a course may be shifted to remote instruction. If this occurs, you will be given clear instructions as to how to proceed. The uncertainty of the situation is not ideal for any of us.  We must all try to approach this situation with good-will, flexibility, and mutual understanding.
-
-Students must follow current guidelines from Chapman University regarding COVID 19. See [here](https://cusafelyback.chapman.edu/). As per the Student Conduct Code: "Any activity that interferes with the normal operation of the University or infringes on the safety of other members of the University community including obstructing an academic class or lecture, administrative support function or university event […] Engaging in classroom conduct prohibited by the faculty member or in violation of law or University policy is also prohibited."
