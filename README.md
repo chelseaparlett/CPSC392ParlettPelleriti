@@ -6,8 +6,7 @@
 
 ## Resources
 * [Lecture Playlist](https://www.youtube.com/playlist?list=PLmxpwhh4FDm5zuA_63jV6iiz5wrg76UHV)
-* [Late Days Google Form](https://forms.gle/98yTiaza79evYVjW8)
-* [Twitch Stream](twitch.tv/chelseaparlett)
+* [Late Days Google Form](https://forms.gle/BJp1vAbHAeQT8vsBA)
 * [Google Colab](https://colab.research.google.com/): a shareable online jupyter notebook. Like google docs for code (but instead of being able to see changes live, you can only see other people's changes when you save and re-open notebook). Great for collabing with other people, or for storing your code online.
 * [OBS Streamlabs](https://streamlabs.com/): Great for recording your presentation.
 * [Slack](): A place to ask me questions, meet with other students, share fun data sets...etc.
