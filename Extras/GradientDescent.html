@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Chelsea Parlett-Pelleriti">
+
+<title>Gradient Descent Revisited</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="GradientDescent_files/libs/clipboard/clipboard.min.js"></script>
+<script src="GradientDescent_files/libs/quarto-html/quarto.js"></script>
+<script src="GradientDescent_files/libs/quarto-html/popper.min.js"></script>
+<script src="GradientDescent_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="GradientDescent_files/libs/quarto-html/anchor.min.js"></script>
+<link href="GradientDescent_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="GradientDescent_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="GradientDescent_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="GradientDescent_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="GradientDescent_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#review-of-gradient-descent-concepts" id="toc-review-of-gradient-descent-concepts" class="nav-link active" data-scroll-target="#review-of-gradient-descent-concepts"> <span class="header-section-number">1</span> Review of Gradient Descent Concepts</a></li>
+  <li><a href="#gradient-descent-math" id="toc-gradient-descent-math" class="nav-link" data-scroll-target="#gradient-descent-math"> <span class="header-section-number">2</span> Gradient Descent Math</a>
+  <ul class="collapse">
+  <li><a href="#gradients" id="toc-gradients" class="nav-link" data-scroll-target="#gradients"> <span class="header-section-number">2.1</span> Gradients</a>
+  <ul class="collapse">
+  <li><a href="#partial-derivatives" id="toc-partial-derivatives" class="nav-link" data-scroll-target="#partial-derivatives">Partial Derivatives</a></li>
+  </ul></li>
+  <li><a href="#step-sizelearning-rate" id="toc-step-sizelearning-rate" class="nav-link" data-scroll-target="#step-sizelearning-rate"> <span class="header-section-number">2.2</span> Step Size/Learning Rate</a></li>
+  <li><a href="#updating-parameters" id="toc-updating-parameters" class="nav-link" data-scroll-target="#updating-parameters"> <span class="header-section-number">2.3</span> Updating Parameters</a></li>
+  <li><a href="#sanity-check" id="toc-sanity-check" class="nav-link" data-scroll-target="#sanity-check"> <span class="header-section-number">2.4</span> Sanity Check</a></li>
+  </ul></li>
+  <li><a href="#gradient-descent-for-linear-regression" id="toc-gradient-descent-for-linear-regression" class="nav-link" data-scroll-target="#gradient-descent-for-linear-regression"> <span class="header-section-number">3</span> Gradient Descent for Linear Regression</a>
+  <ul class="collapse">
+  <li><a href="#calculations" id="toc-calculations" class="nav-link" data-scroll-target="#calculations"> <span class="header-section-number">3.1</span> Calculations</a>
+  <ul class="collapse">
+  <li><a href="#gradient-of-sse" id="toc-gradient-of-sse" class="nav-link" data-scroll-target="#gradient-of-sse">Gradient of SSE</a></li>
+  <li><a href="#gradient-of-sse-at-a-specific-point" id="toc-gradient-of-sse-at-a-specific-point" class="nav-link" data-scroll-target="#gradient-of-sse-at-a-specific-point">Gradient of SSE at a specific point</a></li>
+  <li><a href="#apply-gradient-to-multiple-points" id="toc-apply-gradient-to-multiple-points" class="nav-link" data-scroll-target="#apply-gradient-to-multiple-points">Apply Gradient to multiple points</a></li>
+  <li><a href="#take-a-step" id="toc-take-a-step" class="nav-link" data-scroll-target="#take-a-step">Take a step</a></li>
+  <li><a href="#check-our-work" id="toc-check-our-work" class="nav-link" data-scroll-target="#check-our-work">Check Our Work</a></li>
+  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#variations-on-gradient-descent" id="toc-variations-on-gradient-descent" class="nav-link" data-scroll-target="#variations-on-gradient-descent"> <span class="header-section-number">4</span> Variations on Gradient Descent</a></li>
+  <li><a href="#takeaways" id="toc-takeaways" class="nav-link" data-scroll-target="#takeaways"> <span class="header-section-number">5</span> Takeaways</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gradient Descent Revisited</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Chelsea Parlett-Pelleriti </p>
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="review-of-gradient-descent-concepts" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Review of Gradient Descent Concepts</h1>
+<p>Earlier in the semester we learned about the general ideas of Gradient Descent. Gradient Descent is a method for choosing model parameters to minimize our loss function.</p>
+<div class="callout-caution callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Loss Function
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A loss function is a metric for measuring the performance of our model where <strong>lower values of the loss function are better</strong>. The bolded part is important now, as we want to be consistent about <em>minimizing</em> (rather than maximizig) these loss functions.</p>
+</div>
+</div>
+<p>Previously, we talked about the analogy of the hiker hiking in the dark: A hiker is hiking in the hills in pitch black darkness. She needs to find the valley in order to be safe during the night. But she can’t see anything. One strategy for her to get down to a valley is to feel the ground around her and take one step in whichever direction is the steepest <em>downhill</em>. Then she feels around herself again and takes another step. She repeats this process until eventually she will end up on relatively flat ground, most likely in a valley where she’ll be safe!</p>
+<p>Gradient descent works the same way. The landscape represents our loss function value. Hills are where the loss is high (and our model isn’t doing that well). Valleys are places where the loss is low (and our model is doing pretty well). The steps we take represent changes in our paramater values. We want to change them in ways that <em>lower</em> the loss. To figure out which changes to make to our parameters (i.e.&nbsp;which “direction” to step in), we need to calculate the <strong>Gradient</strong> of our loss function.</p>
+<p><img src="https://easyai.tech/wp-content/uploads/2019/01/tiduxiajiang-1.png" class="img-fluid"></p>
+</section>
+<section id="gradient-descent-math" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Gradient Descent Math</h1>
+<section id="gradients" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="gradients"><span class="header-section-number">2.1</span> Gradients</h2>
+<div class="callout-caution callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Gradient
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A gradient is <em>technically</em> a vector of partial derivatives of the loss function with respect to each of our parameter values. In non-math-speak, a gradient tells us how the loss function changes when we change each parameter.</p>
+<p>For example, in a simple linear regression with only an intercept and one coefficient, the gradient would tell you how your loss would change if you increased your intercept a little, and how your loss would change if you increased the coefficient a little.</p>
+<p>By the way, we don’t cover this in 392, but gradients are COMPLICATED to calculate for bigger models, so we use <strong>Backpropagation</strong> in order to compute it. <strong>Backpropagation</strong> is an algorithm for computing the gradient at a specific point.</p>
+</div>
+</div>
+<section id="partial-derivatives" class="level3">
+<h3 class="anchored" data-anchor-id="partial-derivatives">Partial Derivatives</h3>
+<p>To get information about how our loss function changes as our parameters change, we use <strong>partial derivatives</strong>. Partial derivatives allow us to hold all other variables constant and just look at how a function changes when one variable changes. For example:</p>
+<p><span class="math display">\[
+f = x^2 + xy + y^2
+\]</span></p>
+<p><em>(Visualize this function <a href="https://www.geogebra.org/3d?lang=en">here</a> by typing in “x^2 + xy + y^2”)</em></p>
+<p>The function <span class="math inline">\(f\)</span>’s value depends on two variables, <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>. The partial derivative of <span class="math inline">\(f\)</span> with respect to <span class="math inline">\(x\)</span> asks “how does <span class="math inline">\(f\)</span> change when we change <span class="math inline">\(x\)</span> (holding <span class="math inline">\(y\)</span> constant)?”. We can tell, just by looking at the equation that as <span class="math inline">\(x\)</span> increases, <span class="math inline">\(f\)</span> is going to go up by a lot because there’s an <span class="math inline">\(x^2\)</span> and a <span class="math inline">\(xy\)</span> in there!</p>
+<p>Mathematically, we can take the derivative of <span class="math inline">\(f\)</span> treating <span class="math inline">\(y\)</span> as if it’s a constant value (like 1, or 6, or 2.5678).</p>
+<p><span class="math display">\[
+\frac{\partial f}{\partial x} = 2x + y
+\]</span></p>
+<p>This tells us that when <span class="math inline">\(x\)</span> changes, <span class="math inline">\(f\)</span> will change by <span class="math inline">\(2xy + 1\)</span>.</p>
+<p>We can do the same for y.</p>
+<p><span class="math display">\[
+\frac{\partial f}{\partial y} = x + 2y
+\]</span></p>
+<p>Therefore the gradient of the function <span class="math inline">\(f\)</span> would be:</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+\frac{\partial f}{\partial y} \\ \frac{\partial f}{\partial y}
+\end{bmatrix} =
+\begin{bmatrix}
+2x + y  \\ x + 2y
+\end{bmatrix}
+\]</span></p>
+<p>If we wanted to minimize the value of <span class="math inline">\(f\)</span>, we could use the gradient in order to do so. Let’s say we started at the point <span class="math inline">\((2,3)\)</span>. Which way should we go in order to <em>decrease</em> <span class="math inline">\(f\)</span>?</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+\frac{\partial f}{\partial y} \\ \frac{\partial f}{\partial y}
+\end{bmatrix} =
+\begin{bmatrix}
+2x + y  \\ x + 2y
+\end{bmatrix} =
+\begin{bmatrix}
+7 \\ 8
+\end{bmatrix}
+\]</span></p>
+<p>The Gradient at <span class="math inline">\((2,3)\)</span> tells us that increasing <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> will both <em>increase</em> <span class="math inline">\(f\)</span>.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Question
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>We want to <em>decrease</em> <span class="math inline">\(f\)</span>, so what should we do to <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>?</li>
+<li>Which one should we decrease more? <span class="math inline">\(x\)</span> or <span class="math inline">\(y\)</span>?</li>
+</ul>
+</div>
+</div>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>We should <em>decrease</em> both <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, and we should decrease <span class="math inline">\(y\)</span> more becasue it has a bigger impact than <span class="math inline">\(x\)</span> at this specific point <span class="math inline">\((2,3)\)</span>.</p>
+<p>It turns out that we’ll take a step in the direction <span class="math inline">\(-\begin{bmatrix} 7 \\ 8 \end{bmatrix}\)</span>!</p>
+<p>But we’ll save the details for CPSC 393…</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="step-sizelearning-rate" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="step-sizelearning-rate"><span class="header-section-number">2.2</span> Step Size/Learning Rate</h2>
+<p>Okay, so we know which direction to go (<span class="math inline">\(-\begin{bmatrix} 7 \\ 8 \end{bmatrix}\)</span>), but how big of a step do we take? We’ll worry about that in CPSC 393. For now, just know that we choose a sufficiently small step size like <span class="math inline">\(0.01\)</span> (for those interested, some algorithms like Adam use different step sizes at different points in the process).</p>
+<p>If we take steps that are too big, we’ll overshoot minima and zig zag across the parameter space.</p>
+<p>If we take steps that are too small, it will take <em>forever</em> to reach a minima.</p>
+<p>Our step size is usually called <span class="math inline">\(\alpha\)</span>. Let’s use <span class="math inline">\(\alpha = 0.1\)</span>.</p>
+<p><img src="https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/national/gradient-descent-learning-rate.png" class="img-fluid"></p>
+</section>
+<section id="updating-parameters" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="updating-parameters"><span class="header-section-number">2.3</span> Updating Parameters</h2>
+<p>We started at the point <span class="math inline">\((2,3)\)</span>. What point should we move to now that we’ve examined the gradient?</p>
+<p>For this simple 2-parameter problem, gradient descent uses this formula to update parameter values:</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+x_{new} \\ y_{new}
+\end{bmatrix} =
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}
+- \alpha
+\begin{bmatrix}
+\frac{\partial f}{\partial y} \\ \frac{\partial f}{\partial y}
+\end{bmatrix}
+\]</span></p>
+<p>So for us, our new parameters are:</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+x_{new} \\ y_{new}
+\end{bmatrix} =
+\begin{bmatrix}
+2 \\ 3
+\end{bmatrix}
+- 0.01
+\begin{bmatrix}
+7 \\ 8
+\end{bmatrix} =
+\begin{bmatrix}
+1.93 \\ 2.92
+\end{bmatrix}
+\]</span></p>
+<p>Just like we discussed earlier, we <em>decreased</em> both <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> and we decreased <span class="math inline">\(y\)</span> a little bit more, because at this point <span class="math inline">\((2,3)\)</span>, changing <span class="math inline">\(y\)</span> has a <em>little bit</em> more of an impact on <span class="math inline">\(f\)</span>.</p>
+</section>
+<section id="sanity-check" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="sanity-check"><span class="header-section-number">2.4</span> Sanity Check</h2>
+<p>Because we have an easy to use function, let’s check that our new point, <span class="math inline">\(\begin{bmatrix}1.93 \\ 2.92\end{bmatrix}\)</span> has a smaller value for <span class="math inline">\(f\)</span> than <span class="math inline">\(\begin{bmatrix}2 \\ 3\end{bmatrix}\)</span>.</p>
+<p>Plugging both in we get:</p>
+<p><span class="math display">\[
+f = x^2 + xy + y^2 = 4 + 6 + 9 = 19
+\]</span></p>
+<p><span class="math display">\[
+f = x^2 + xy + y^2 = 3.7249 + 5.6356 + 8.5264 = 17.8869
+\]</span></p>
+<p>HOORAY! Our step did infact decrease <span class="math inline">\(f\)</span>!</p>
+</section>
+</section>
+<section id="gradient-descent-for-linear-regression" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Gradient Descent for Linear Regression</h1>
+<p>Alright, now for a loss function that we’ve learned about: <strong>mean squared error</strong>.</p>
+<div class="callout-caution callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Sum of Squared Error
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The <strong>mean squared error</strong> or <strong>MSE</strong> is a loss function for models that predict <em>continuous</em> values, like linear regression. It measures the average squared distance between our model’s guess and the actual value.</p>
+<p><span class="math display">\[
+SSE = \sum_i^N (y_i - \hat{y})^2
+\]</span></p>
+</div>
+</div>
+<p>Let’s say we have a simple linear regression with only one predictor. This means we have 2 parameters: the intercept (<span class="math inline">\(b_0\)</span>), and the coefficient (<span class="math inline">\(b_1\)</span>).</p>
+<p>To get a prediction from our model we use:</p>
+<p><span class="math display">\[
+\hat{y} = b_0 + b_1x
+\]</span></p>
+<p>where <span class="math inline">\(x\)</span> is our predictor value.</p>
+<p>We can plug this into our SSE function to get an overall loss of</p>
+<p><span class="math display">\[
+SSE = \sum_i^N (y_i - (b_0 + b_1x))^2 = \sum_i^N (y_i - b_0 - b_1x)^2
+\]</span></p>
+<section id="calculations" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="calculations"><span class="header-section-number">3.1</span> Calculations</h2>
+<section id="gradient-of-sse" class="level3">
+<h3 class="anchored" data-anchor-id="gradient-of-sse">Gradient of SSE</h3>
+<p>The gradient of the loss function <span class="math inline">\(SSE = \sum_i^N (y_i - (b_0 + b_1x))^2\)</span> tells us how changing the intercept (<span class="math inline">\(b_0\)</span>) and the coefficient (<span class="math inline">\(b_1\)</span>) change our SSE.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Derivative Rules
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="the-chain-rule" class="level3">
+<h3 class="anchored" data-anchor-id="the-chain-rule">The Chain Rule</h3>
+<p>The chain rule says that if you want to take the derivative of a composite function (a function applied to another function) the derivative is as follows:</p>
+<p><span class="math display">\[\frac{\partial}{\partial x}f(g(x)) = f'(g(x))*g'(x)
+\]</span></p>
+<p>e.g.&nbsp;</p>
+<p>If we use these simpler functions</p>
+<p><span class="math display">\[
+f(x) = x^2
+\]</span></p>
+<p><span class="math display">\[
+g(x) = 3x + 1
+\]</span></p>
+<p>to make the complex function <span class="math inline">\(f(g(x)) = (3x + 1)^2\)</span> and take the derivative of it, we need <span class="math inline">\(f'(g(x))\)</span> and <span class="math inline">\(g'(x)\)</span>:</p>
+<p><span class="math display">\[
+f'(g(x)) = 2(3x + 1)
+\]</span></p>
+<p><span class="math display">\[
+g'(x) = 3
+\]</span></p>
+<p>Which give us:</p>
+<p><span class="math display">\[
+\frac{\partial}{\partial x} (3x + 1)^2 = 2(3x + 1) * 3 = 6(3x + 1) = 18x + 6
+\]</span></p>
+</section>
+<section id="the-sumdifference-rule" class="level3">
+<h3 class="anchored" data-anchor-id="the-sumdifference-rule">The Sum/Difference Rule</h3>
+<p>The derivative of the sum/difference of two functions is the sum/difference of their derivatives:</p>
+<p><span class="math display">\[
+\frac{\partial}{\partial x} (f(x) + g(x)) = \frac{\partial}{\partial x}f(x) + \frac{\partial}{\partial x}g(x)
+\]</span></p>
+<p><span class="math display">\[
+\frac{\partial}{\partial x} (f(x) - g(x)) = \frac{\partial}{\partial x}f(x) - \frac{\partial}{\partial x}g(x)
+\]</span></p>
+</section>
+<section id="the-constant-rule" class="level3">
+<h3 class="anchored" data-anchor-id="the-constant-rule">The Constant Rule</h3>
+<p>The derivative of a constant multiplied by a function is the constant multiplied by the derivative:</p>
+<p><span class="math display">\[
+\frac{\partial}{\partial x} (k * f(x)) = k * \frac{\partial}{\partial x}f(x)
+\]</span></p>
+</section>
+</div>
+</div>
+</div>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Summation Rules
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<section id="taking-constants-out-of-a-summation" class="level3 callout-body-container callout-body">
+<h3 class="anchored" data-anchor-id="taking-constants-out-of-a-summation">Taking Constants out of a summation</h3>
+<p>If every element in a summation is multplied by a constant, you can take the constant out of the summation:</p>
+<p><span class="math display">\[
+\sum_i^N ax_{i} = ax_{1} + ax_{2}+ ... + ax_{N} =
+\]</span></p>
+<p><span class="math display">\[
+a \sum_i^N x_{i}
+\]</span></p>
+</section>
+</div>
+</div>
+<p><span class="math display">\[
+\nabla_{\theta} =
+\begin{bmatrix}
+\frac{\partial SSE}{\partial b_0} \\ \frac{\partial SSE}{\partial b_1}
+\end{bmatrix} =
+\begin{bmatrix}
+-2\sum_i^N (y_i - (b_0 + b_1x_i)) \\
+-2\sum_i^N x_i(y_i - (b_0 + b_1x_i))
+\end{bmatrix}
+\]</span></p>
+<p>I’m not expecting you to be able to do this partial derivative calculation by hand, but you should generally understand what the partial derivatives are, and what the partial derivative tells you.</p>
+</section>
+<section id="gradient-of-sse-at-a-specific-point" class="level3">
+<h3 class="anchored" data-anchor-id="gradient-of-sse-at-a-specific-point">Gradient of SSE at a specific point</h3>
+<p>Let’s initialize our gradient descent algorithm to start at <span class="math inline">\((0,0)\)</span>.</p>
+<p>At <span class="math inline">\((0,0)\)</span>, our gradient is</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+-2\sum_i^N (y_i - (0 + 0x_i)) \\
+-2\sum_i^N x_i(y_i - (0 + 0x_i))
+\end{bmatrix} =
+\begin{bmatrix}
+-2\sum_i^N (y_i) \\
+-2\sum_i^N x_i(y_i)
+\end{bmatrix}
+\]</span></p>
+<p>Which makes sense, because with <span class="math inline">\((0,0)\)</span> we’re guessing <span class="math inline">\(0\)</span> for every data point.</p>
+<p><span class="math display">\[
+\hat{y} = 0x_i + 0 = 0
+\]</span></p>
+</section>
+<section id="apply-gradient-to-multiple-points" class="level3">
+<h3 class="anchored" data-anchor-id="apply-gradient-to-multiple-points">Apply Gradient to multiple points</h3>
+<p>Let’s say we only have 2 points of data, <span class="math inline">\((1,1)\)</span> and <span class="math inline">\((2,3)\)</span>.</p>
+<p>The gradient would then be:</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+-2\sum_i^N (y_i) \\
+-2\sum_i^N x_i(y_i)
+\end{bmatrix} =
+\begin{bmatrix}
+-2 (1 + 3) \\
+-2\sum_i^N (1*1 + 2*3)
+\end{bmatrix} =
+\begin{bmatrix}
+-8 \\
+-14
+\end{bmatrix}
+\]</span></p>
+</section>
+<section id="take-a-step" class="level3">
+<h3 class="anchored" data-anchor-id="take-a-step">Take a step</h3>
+<p>Applying our step size of <span class="math inline">\(\alpha = 0.01\)</span> this means that we should adjust <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span> like this:</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+b_0 \\
+b_1
+\end{bmatrix} =
+\begin{bmatrix}
+0 \\
+0
+\end{bmatrix} - 0.01
+\begin{bmatrix}
+-8 \\
+-14
+\end{bmatrix} =
+\begin{bmatrix}
+0 \\
+0
+\end{bmatrix}
++ 0.01
+\begin{bmatrix}
+8 \\
+14
+\end{bmatrix}
+\]</span></p>
+<p>Giving us new <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span> of</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+0 \\
+0
+\end{bmatrix}
++ 0.01
+\begin{bmatrix}
+8 \\
+14
+\end{bmatrix} =
+\begin{bmatrix}
+0.08 \\
+0.14
+\end{bmatrix}
+\]</span></p>
+</section>
+<section id="check-our-work" class="level3">
+<h3 class="anchored" data-anchor-id="check-our-work">Check Our Work</h3>
+<p>Again, let’s confirm that our SSE (loss) is now lower!</p>
+<p>Using the data points <span class="math inline">\((1,1)\)</span> and <span class="math inline">\((2,3)\)</span>, our original loss is:</p>
+<p><span class="math display">\[
+SSE = (1 - (0 + 0*1))^2 + (3 - 0 - 0*2)^2 = 1 + 9 = 10
+\]</span></p>
+<p>And our new loss is:</p>
+<p><span class="math display">\[
+SSE = (1 - (0.08 + 0.14*1))^2 + (3 - 0.8 - 0.14*2)^2 = 0.6084 + 3.6864 = 4.2948
+\]</span></p>
+<p>Hooray! Again, our loss is lower! We’ve taken a step in the right direction.</p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code</h3>
+<p>Here’s some code that does the same thing we just did above:</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># create data frame from (1,1), (2,3)</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({<span class="st">"x"</span>: [<span class="dv">1</span>,<span class="dv">2</span>], <span class="st">"y"</span>: [<span class="dv">1</span>,<span class="dv">3</span>]})</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="11">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>x</th>
+      <th>y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> stepGradient(b0_current, b1_current, points, learningRate):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># initialize gradient to 0</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    b0_gradient <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    b1_gradient <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># for each data point, calculate gradient and add </span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(points)):</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>        b0_gradient <span class="op">+=</span> <span class="op">-</span><span class="dv">2</span> <span class="op">*</span> (points.iloc[i].y <span class="op">-</span> ((b1_current<span class="op">*</span>points.iloc[i].x) <span class="op">+</span> b0_current))</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        b1_gradient <span class="op">+=</span> <span class="op">-</span><span class="dv">2</span> <span class="op">*</span> points.iloc[i].x <span class="op">*</span> (points.iloc[i].y <span class="op">-</span> ((b1_current <span class="op">*</span> points.iloc[i].x) <span class="op">+</span> b0_current))</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># update parameter values</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    new_b0 <span class="op">=</span> b0_current <span class="op">-</span> (learningRate <span class="op">*</span> b0_gradient)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    new_b1 <span class="op">=</span> b1_current <span class="op">-</span> (learningRate <span class="op">*</span> b1_gradient)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [np.<span class="bu">round</span>(new_b0,<span class="dv">5</span>), np.<span class="bu">round</span>(new_b1,<span class="dv">5</span>)]</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Our new parameter values are: "</span>, stepGradient(<span class="dv">0</span>,<span class="dv">0</span>, df, <span class="fl">0.01</span>))</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="co">#based on https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Our new parameter values are:  [0.08, 0.14]</code></pre>
+</div>
+</div>
+<p>We can even use it to take yet another step!</p>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Our new parameter values are: "</span>, stepGradient(<span class="fl">0.08</span>,<span class="fl">0.14</span>, df, <span class="fl">0.01</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Our new parameter values are:  [0.1484, 0.2612]</code></pre>
+</div>
+</div>
+<p>OR we can try it with a lot more data points!</p>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create data frame </span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.random.normal(loc <span class="op">=</span> <span class="dv">0</span>, scale <span class="op">=</span> <span class="dv">1</span>, size <span class="op">=</span> <span class="dv">100</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="fl">1.67</span> <span class="op">+</span> <span class="fl">0.67</span><span class="op">*</span>x <span class="op">+</span> np.random.normal(loc <span class="op">=</span> <span class="dv">0</span>, scale <span class="op">=</span> <span class="fl">0.2</span>, size <span class="op">=</span> <span class="dv">100</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>df2 <span class="op">=</span> pd.DataFrame({<span class="st">"x"</span>: x, <span class="st">"y"</span>: y})</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>df2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="14">
+
+<div>
+
+<table class="dataframe table table-sm table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>x</th>
+      <th>y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.238015</td>
+      <td>1.769710</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.022259</td>
+      <td>1.890966</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.446678</td>
+      <td>3.036868</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.763668</td>
+      <td>2.590071</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.622178</td>
+      <td>2.280164</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>0.748492</td>
+      <td>2.238871</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>-1.107428</td>
+      <td>0.741955</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>0.650889</td>
+      <td>1.862546</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>0.767996</td>
+      <td>1.807791</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>-0.804245</td>
+      <td>0.997801</td>
+    </tr>
+  </tbody>
+</table>
+<p>100 rows × 2 columns</p>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Our new parameter values are: "</span>, stepGradient(<span class="dv">0</span>,<span class="dv">0</span>, df2, <span class="fl">0.01</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Our new parameter values are:  [3.52941, 1.48074]</code></pre>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="variations-on-gradient-descent" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Variations on Gradient Descent</h1>
+<p>We’ll learn more about this in CPSC 393, but some quick notes about different types of Gradient Descent.</p>
+<p>Typical Gradient Descent looks at the sum of the gradient across ALL data points in the training data for <em>each</em> step. That’s a lot of computation! So there are two alternatives that can speed things up.</p>
+<ul>
+<li><p><strong>Stochastic Gradient Descent (SGD)</strong>: Stochastic Gradient Descent only looks and one random data point per step. While this is incredibly fast, it’s a bit like a drunk person walking down a hill…the steps are fast but they’re all over the places. However, SGD does still often reach an acceptable minima with computational efficiency.</p></li>
+<li><p><strong>Mini Batch Gradient Descent</strong>: Like Gradient Descent, Mini-Batch considers multiple data points per step. However instead of using ALL the training data, we use small “batches” of data. It’s the medium ground between Grandient Descent and SGD.</p></li>
+</ul>
+<p><img src="https://editor.analyticsvidhya.com/uploads/58182variations_comparison.png" class="img-fluid"></p>
+</section>
+<section id="takeaways" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Takeaways</h1>
+<p>Again, we don’t do math just because it’s fun. We do math to give us insight into the concepts we’re learning, like Gradient Descent!</p>
+<p>Here are some takeaways from this math:</p>
+<ul>
+<li>Gradient Descent is an iterative algorithm for finding a minima of a function</li>
+<li>We want to minimize our loss functions so that our models do well</li>
+<li>Gradient Descent uses partial derivatives to show us <em>how</em> we should change our parameters (e.g.&nbsp;coefficients…) in order to take one step closer to a minima</li>
+<li>Step Size (or Learning Rate) tells us how big of a step to take in that direction. Too big and we might step over a minima, to small and it will take forever</li>
+<li>When calculating the gradient for a group of points, we take the sum of the gradient of each individual point</li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
