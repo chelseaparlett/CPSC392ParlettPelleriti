@@ -1,10 +1,11 @@
 # CPSC 392| Data Science
-# Fall '22
+# Spring '23
 # Syllabus
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture: MW 1-2:15 (01) and 2:30-3:45 (02), and TTh 2:30-3:45 (03)
-## Office Hours: MW 10am-11:15am, TTh 12:1pm-1pm, M 3:45pm-4:45pm, W 6-7pm
+## Lecture: MW 2:30pm-3:45pm (01) and 4pm-5:15pm (02), and TTh 1pm-2:15pm (03)
+## Office Hours: M 10am-11am (ZOOM), TTh 10am-11:30am, W 1:30-2:30pm, 6-7pm (ZOOM)
+<img src="https://drive.google.com/uc?export=view&id=18P6vWbrwrRjoKe30IZ6DDtsJt55oYact" alt="Q" style="width: 200px;"/>
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
 ## INSTALLS
@@ -51,7 +52,7 @@ Homework will consist of assignments to reinforce material covered in class, and
 ### Late Days
 Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm.
 
-To qualify for an extra day, you must fill out the **Late Days Google Form*  linked on the front page of our course GitHub under Resources *BEFORE the assignment is due*. Because of these "extra days", late work will automatically be penalized a 0.5% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.
+To qualify for an extra day, you must fill out the **Late Days Google Form*  linked on the front page of our course GitHub under Resources *BEFORE the assignment is due*. Because of these "extra days", late work will automatically be penalized a 0.1% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.
 
 ### Assignments
 All programs must be written in Python unless otherwise specified. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.)
@@ -77,6 +78,21 @@ Information for the course will mainly be disseminated through our Course Slack.
 20%
 ### Final Project
 20%
+
+| % Range  | Letter Grade |
+|----------|--------------|
+| 93-100   | A            |
+| 90-92.99 | A-           |
+| 87-89.99 | B+           |
+| 83-86.99 | B            |
+| 80-82.99 | B-           |
+| 77-79.99 | C+           |
+| 73-76.99 | C            |
+| 70-72.99 | C-           |
+| 67-69.99 | D+           |
+| 63-66.99 | D            |
+| 60-62.99 | D-           |
+| < 60     | F            |
 
 ## Collaboration Policy:
 You have much to learn from your classmates, and so I encourage you to discuss and study course material together. However, all work you submit for this course must be your own, and must be completed individually unless otherwise specified. More specifically, you may not present source code or programs copied from the Internet, other texts, other students, etc as your own work. Of course, you are free to use whatever reference materials you like, but please cite them in a README turned in with your assignments. I assume you are familiar with Chapman’s policy on academic misconduct is presented below and any incidents of academic misconduct or dishonesty will be dealt with severely in accordance with this policy.
