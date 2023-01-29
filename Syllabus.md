@@ -52,7 +52,7 @@ Homework will consist of assignments to reinforce material covered in class, and
 ### Late Days
 Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm.
 
-To qualify for an extra day, you must fill out the **Late Days Google Form*  linked on the front page of our course GitHub under Resources *BEFORE the assignment is due*. Because of these "extra days", late work will automatically be penalized a 0.1% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.
+To qualify for an extra day, you must fill out the **Late Days Google Form*  linked on the front page of our course GitHub under Resources *BEFORE the assignment is due*. Because of these "extra days", late work will automatically be penalized a 0.15% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.
 
 ### Assignments
 All programs must be written in Python unless otherwise specified. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.)
