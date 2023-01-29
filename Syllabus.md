@@ -5,7 +5,7 @@
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
 ## Lecture: MW 2:30pm-3:45pm (01) and 4pm-5:15pm (02), and TTh 1pm-2:15pm (03)
 ## Office Hours: M 10am-11am (ZOOM), TTh 10am-11:30am, W 1:30-2:30pm, 6-7pm (ZOOM)
-<img src="https://drive.google.com/uc?export=view&id=18P6vWbrwrRjoKe30IZ6DDtsJt55oYact" alt="Q" style="width: 200px;"/>
+<img src="https://drive.google.com/uc?export=view&id=18P6vWbrwrRjoKe30IZ6DDtsJt55oYact" alt="Q"/>
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
 ## INSTALLS
