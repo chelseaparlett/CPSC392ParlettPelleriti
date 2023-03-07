@@ -8,6 +8,7 @@
 <img src="https://drive.google.com/uc?export=view&id=18P6vWbrwrRjoKe30IZ6DDtsJt55oYact" alt="Q"/>
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
+## TUTOR'S Office Hours (Not Dr. Parlett): M 4:30pm-6:30pm, T 11:30am-1:30pm, Th 3:30pm-5pm, F 11am-1pm
 ## INSTALLS
 
 * [Install Python](https://www.python.org/downloads/)
