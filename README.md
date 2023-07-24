@@ -1,6 +1,6 @@
 # CPSC392ParlettPelleriti
 
-## Readings
+## Readings (optional, all books free)
 * [Python Data Science Handbook (Beginner book + code)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 * [Introduction to Statistical Learning (Intermediate Book + code)](https://www.statlearning.com/)
 * [Elements of Statistical Learning (Advanced Book)](https://hastie.su.domains/ElemStatLearn/)
