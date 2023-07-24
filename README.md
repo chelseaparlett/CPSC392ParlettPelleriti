@@ -20,10 +20,6 @@
 | Hierarchical Clustering          |                     | Chapter 12.4.2          | Chapter 14.3.12                              |
 | Principal Component Analysis     | Chapter 5.9         | Chapter 6.3.1, 12.2     | Chapter 14.5.1                               |
 | Neural Networks                  |                     | Chapter 10              | Chapter 11                                   |
-|                                  |                     |                         |                                              |
-|                                  |                     |                         |                                              |
-|                                  |                     |                         |                                              |
-|                                  |                     |                         |                                              |
 ## Resources
 * [Lecture Playlist](https://www.youtube.com/playlist?list=PLmxpwhh4FDm5zuA_63jV6iiz5wrg76UHV)
 * [Google Colab](https://colab.research.google.com/): a shareable online jupyter notebook. Like google docs for code (but instead of being able to see changes live, you can only see other people's changes when you save and re-open notebook). Great for collabing with other people, or for storing your code online.
