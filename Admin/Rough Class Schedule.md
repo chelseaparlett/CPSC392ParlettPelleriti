@@ -14,10 +14,10 @@
 | *Supervised ML*        | 5        | 9         | Logistic Regression I                          | Quiz                                         |
 | *Supervised ML*        | 6        | 10        | Logistic Regression II                         |                                              |
 | *Supervised ML*        | 6        | 11        | Tree-Based Models                              | Quiz                                         |
-| *Supervised ML*        | 7        | 12        | Review                                         |                                              |
-| *Supervised ML*        | 7        | 13        | Exam I                                         | Exam                                         |
+|                        | 7        | 12        | Review                                         |                                              |
+|                        | 7        | 13        | Exam I                                         | Exam                                         |
 | *Supervised ML*        | 8        | 14        | K-Nearest Neighors and Naive Bayes             | Intro HW2                                    |
-|                        | 8        | 15        | Data Science Ethics                            | Quiz (will include ethics videos)            |
+| *Misc ML*              | 8        | 15        | Data Science Ethics                            | Quiz (will include ethics videos)            |
 | *Unsupervised ML*      | 9        | 16        | K-Means                                        |                                              |
 | *Unsupervised ML*      | 9        | 17        | Gaussian Mixture Models                        | Quiz                                         |
 | *Unsupervised ML*      | 10       | 18        | DBSCAN                                         |                                              |
@@ -26,7 +26,7 @@
 | *Misc ML*              | 11       | 21        | Topics in Data Science*                        | Quiz                                         |
 |                        | 12       | 22        | Review                                         |                                              |
 |                        | 12       | 23        | Exam II                                        | Exam                                         |
-| **Thanksgiving Break** |          |           |                                                |                                              |
+|                        |          |           | **Thanksgiving Break**                         |                                              |
 | *Misc ML*              | 13       | 24        | Neural Networks                                |                                              |
 | *Misc ML*              | 13       | 25        | In-Class Homework                              | (This is HW4); Quiz; Course Evals            |
 |                        | 14       | 26        | Review + Project                               |                                              |
