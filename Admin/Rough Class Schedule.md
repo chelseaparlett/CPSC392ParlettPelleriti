@@ -1,128 +1,37 @@
 # Class Schedule MAY change
 
-</br>
-
-# ADMIN
-
-## Week 1
-### Class 0 -- Introduction and Admin
-### Class 1 -- All the stuff you need to know (Python)
-* Quiz
-
-</br>
-
-## Week 2
-### Class 2 -- Debugging Basics
-### Class 3 -- All the stuff you need to know (Math)
-* Quiz
-## Friday
-* HW0 Due (Audio of Name)
-
-
-</br>
-
-## Week 3
-### Class 4 -- Visualization
-### Class 5 -- Visualization II
-* Quiz
-
-## Friday
-* HW0 Due (Academic Integrity Form)
-
-</br>
-
-# Supervised Learning
-## Week 4
-### Class 6 -- Linear Regression I
-### Class 7 -- Linear Regression II
-* Quiz
-
-</br>
-
-## Week 5
-### Class 8 -- Logistic Regression I
-### Class 9 -- Logistic Regression II
-* Quiz
-## Friday
-* HW1 Due
-
-</br>
-
-## Week 6
-### Class 10 -- Review
-### Class 11 -- Exam I
-### Friday
-* Project 1 Due
-
-
-</br>
-
-## Week 7
-### Class 12 -- Decision Trees
-### Class 13 -- Naive Bayes
-* Quiz
-</br>
-
-
-## Week 8
-### Class 14 -- K-Nearest Neighbors
-### Class 15 -- Data Science Ethics
-* Quiz
-### Friday
-* HW2 Due
-
-</br>
-
-# Unsupervised Learning
-
-## Week 9
-### Class 16 -- K-Means
-### Class 17 -- Expectation Maximization with Mixtures of Gaussians
-* Quiz
-
-</br>
-
-## Week 10
-### Class 18 -- DBSCAN
-### Class 19 -- Hierarchical Clustering
-* Quiz
-
-</br>
-
-## Week 11
-### Class 20 -- Review
-### Class 21 -- Exam II
-### Friday
-* Project 2 Due
-
-</br>
-
-# Dimensionality Reduction, Regularization, NNs, Communication
-## Week 12
-### Class 22 -- Dimensionality Reduction (PCA)
-### Class 23 -- Regularization (LASSO + Ridge)
-* Quiz
-
-</br>
-## Thanksgiving Break
-</br>
-
-## Week 13
-### Class 24 -- Neural Networks
-### Class 25 -- Topics in Data Science
-* (Optional) Meet with Chelsea for Final Project Feedback
-* Quiz
-### Friday
-* HW 3 Due
-
-</br>
-
-## Week 14
-### Class 26 -- Review + Project 
-* Meet with Chelsea for Feedback on Project Data Viz
-### Class 27 -- Data Science Communication
-* Meet with Chelsea for Feedback on Analysis plan
-* Quiz
-
-## Finals Week
-* Final Project Due
+| **Week**                        | **Class** | **Topic**                                      | **Notes**                                    |
+|---------------------------------|-----------|------------------------------------------------|----------------------------------------------|
+| *Admin*                         |           |                                                |                                              |
+| 1                               | 0         | Intro                                          |                                              |
+| 1                               | 1         | All the Stuff You Need To Know (Python)        | Quiz                                         |
+| 2                               | 2         | Debugging (Optional)                           |                                              |
+| 2                               | 3         | All the Stuff You Need To Know (Math)          | Quiz                                         |
+| 3                               | 4         | Data Visualization I                           |                                              |
+| 3                               | 5         | Data Visualization II                          | Quiz                                         |
+| *Supervised Machine Learning*   |           |                                                |                                              |
+| 4                               | 6         | Linear Regression I                            |                                              |
+| 4                               | 7         | Linear Regression II                           | Quiz                                         |
+| 5                               | 8         | Linear Regression III (Bias-Variance Tradeoff) | Intro HW1                                    |
+| 5                               | 9         | Logistic Regression I                          | Quiz                                         |
+| 6                               | 10        | Logistic Regression II                         |                                              |
+| 6                               | 11        | Tree-Based Models                              | Quiz                                         |
+| 7                               | 12        | Review                                         |                                              |
+| 7                               | 13        | Exam I                                         | Exam                                         |
+| 8                               | 14        | K-Nearest Neighors and Naive Bayes             | Intro HW2                                    |
+| 8                               | 15        | Data Science Ethics                            | Quiz (will include ethics videos)            |
+| *Unsupervised Machine Learning* |           |                                                |                                              |
+| 9                               | 16        | K-Means                                        |                                              |
+| 9                               | 17        | Gaussian Mixture Models                        | Quiz                                         |
+| 10                              | 18        | DBSCAN                                         |                                              |
+| 10                              | 19        | Hierarchical                                   | Quiz                                         |
+| 11                              | 20        | Principal Component Analysis                   | Finding Dataset for Final Project; Intro HW3 |
+| *Miscellaneous ML*              |           |                                                |                                              |
+| 11                              | 21        | Topics in Data Science*                        | Quiz                                         |
+| 12                              | 22        | Review                                         |                                              |
+| 12                              | 23        | Exam II                                        | Exam                                         |
+| **Thanksgiving Break**          |           |                                                |                                              |
+| 13                              | 24        | Neural Networks                                |                                              |
+| 13                              | 25        | In-Class Homework                              | (This is HW4); Quiz; Course Evals            |
+| 14                              | 26        | Review + Project                               |                                              |
+| 14                              | 27        | Data Science Communication                     | Quiz                                         |
