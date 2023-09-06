@@ -6,6 +6,8 @@
 ## Lecture: MW 2:30pm-3:45pm (01) and 4pm-5:15pm (02), and TTh 1pm-2:15pm (03)
 
 ### M 10am-11:30am (ZOOM), T 2:15-3:15pm (IN-PERSON), W 1:30-2:30pm (IN-PERSON) and 6-7pm (ZOOM), Th 10-11:30am (IN-PERSON)
+
+Office Hours are in green and read "Office Hours". Class times are in Blue (and are labeled with their course #).
 <img src="https://drive.google.com/uc?export=view&id=1OYIiIahZ0t0-pm4ucIfYYG3uciacd_kZ" alt="Q"/>
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
@@ -17,13 +19,14 @@
 
 ## Course Learning Outcomes
 By the end of the semester the students should
-1. Understand computational issues related to data mining on the large scale.
-2. Enumerate standard algorithms for supervised and unsupervised learning
-3. Perform exploratory data analysis and visualization
-4. Formulate techniques for outlier detection and data cleaning for domain-specific data sets
-5. Carry out statistical analysis of data
-8. Analyze data for patterns
-9. Build statistical models of large data sets
+
+1. Understand computational issues related to data mining on the large scale.
+2. Enumerate standard algorithms for supervised and unsupervised learning
+3. Perform exploratory data analysis and visualization
+4. Formulate techniques for outlier detection and data cleaning for domain-specific data sets
+5. Carry out statistical analysis of data
+8. Analyze data for patterns
+9. Build statistical models of large data sets
 
 ## Program Learning Outcomes
 The Chapman experience creates outcomes which are consistent with our identity. Similar to the General Education program, each degree program, or major, at Chapman has a unique set of learning outcomes, or student abilities that are not only related to Chapman's institutional mission and goals, but also unique to the student's discipline or field of study. For more information, [Fowler School of Engineering Program Learning Outcomes](https://docs.google.com/document/d/1OESCtPUolnWFV_qRFuRzNrzxmUtYr5H-dFaYVmPUKY0/edit?usp=sharing).
