@@ -1,0 +1,53 @@
+---
+title: "Homework 1"
+author: "YOUR NAME HERE"
+format: pdf
+---
+
+# Introduction
+
+Description of the problem (e.g. what are you predicting? what variables do you have available? How might this model be useful if you are successful). You should end with a sentence or two about what the impact of these models could be.
+
+
+# Methods
+
+Describe your models in detail (as if explaining them to the store's CEO), as well as any pre-processing you had to do to the data. 
+
+# Results
+
+How well did your model perform according to the various metrics, was the model overfit (how can you tell)? What do those performance metrics tell you about the model? Did you need `PolynomialFeatures` (which includes both ploynomial features and interactions)?  How much do you trust the results of your model (in other words, would you be confident telling the store that they should use the model? Why or why not? Are there any caveats you'd give them?) Also answer the two questions you chose from part 2 above. Include the image, a caption as well as your written answer.
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+**Also** answer the two questions you chose from part 2 above. Include the image, a caption as well as your written answer.
+
+## *Question 1*: Why is the sky blue?
+
+Create your plot in your code, and then save it and add it to your report using the following syntax:
+
+![My Caption Here](https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+My written answer goes here and I'm going to write very clearly.
+
+## *Question 2*: Why is grass green?
+
+Create your plot in your code, and then save it and add it to your report using the following syntax:
+
+![My Caption Here](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+My written answer goes here and I'm going to write very clearly.
+
+# Discussion/Reflection
+
+A few sentences about what you learned from performing these analyses, and at least one suggestion for what you'd add or do differently if you were to perform this analysis again in the future.
