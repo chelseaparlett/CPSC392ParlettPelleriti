@@ -31,7 +31,7 @@ If you want a table you can make one with [this website](https://www.tablesgener
 
 Create your plot in your code, and then save it and add it to your report using the following syntax:
 
-![My Caption Here](https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=){width=300}
+![My Caption Here](https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg){width=300}
 
 (Note that the `width=300` argument controls how wide your image will be.)
 
