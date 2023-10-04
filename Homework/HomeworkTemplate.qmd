@@ -29,7 +29,7 @@ If you want a table you can make one with [this website](https://www.tablesgener
 
 ## *Question 1*: Why is the sky blue?
 
-Create your plot in your code, and then save it and add it to your report using the following syntax:
+Add an image via URL:
 
 ![My Caption Here](https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg){width=300}
 
@@ -39,7 +39,7 @@ My written answer goes here and I'm going to write very clearly.
 
 ## *Question 2*: Why is grass green?
 
-Create your plot in your code, and then save it and add it to your report using the following syntax:
+Add an image from your local computer (note: this is a filepath on *my* computer, you'd need to change it to a filepath on *your* computer.)
 
 ![My Caption Here](/Users/cparlett/Desktop/corgi.jpg){width=300}
 
