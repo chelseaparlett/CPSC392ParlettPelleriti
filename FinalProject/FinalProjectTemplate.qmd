@@ -1,0 +1,147 @@
+---
+title: "Final Project"
+format: pdf
+---
+
+Name 1
+Name 2
+Name 3
+
+
+# Introduction
+
+Description of the data (e.g. What variables do you have? Where is this data from? How much data do you have? Anything notable about the data). 
+
+
+# Question 1: Why is the sky Blue?
+
+Here is my very detailed discussion of the answer to this question, as well as how I found the answer (e.g. describing the models, presenting the graphs, discussing the implication).
+
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+# Question 2: Why is the sky Blue?
+
+Here is my very detailed discussion of the answer to this question, as well as how I found the answer (e.g. describing the models, presenting the graphs, discussing the implication).
+
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+# Question 3: Why is the sky Blue?
+
+Here is my very detailed discussion of the answer to this question, as well as how I found the answer (e.g. describing the models, presenting the graphs, discussing the implication).
+
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+# Question 4: Why is the sky Blue?
+
+Here is my very detailed discussion of the answer to this question, as well as how I found the answer (e.g. describing the models, presenting the graphs, discussing the implication).
+
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+# Question 5: Why is the sky Blue?
+
+Here is my very detailed discussion of the answer to this question, as well as how I found the answer (e.g. describing the models, presenting the graphs, discussing the implication).
+
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+# Question 6: Why is the sky Blue?
+
+Here is my very detailed discussion of the answer to this question, as well as how I found the answer (e.g. describing the models, presenting the graphs, discussing the implication).
+
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+![Figure 1: Caption](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
