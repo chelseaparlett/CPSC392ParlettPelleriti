@@ -4,7 +4,7 @@
 |------------------------|----------|-----------|------------------------------------------------|----------------------------------------------|
 | *Admin and Review*     | 1        | 0         | Intro                                          |                                              |
 | *Admin and Review*     | 1        | 1         | All the Stuff You Need To Know (Python)        | Quiz                                         |
-| *Admin and Review*     | 2        | 2         | Debugging (Optional)                           |                                              |
+| *Admin and Review*     | 2        | 2         | Math with Numpy, Pandas                        |                                              |
 | *Admin and Review*     | 2        | 3         | All the Stuff You Need To Know (Math)          | Quiz                                         |
 | *Admin and Review*     | 3        | 4         | Data Visualization I                           |                                              |
 | *Admin and Review*     | 3        | 5         | Data Visualization II                          | Quiz                                         |
@@ -16,6 +16,7 @@
 | *Supervised ML*        | 6        | 11        | Tree-Based Models                              | Quiz                                         |
 |                        | 7        | 12        | Review                                         |                                              |
 |                        | 7        | 13        | Exam I                                         | Exam                                         |
+|                        |          |           | **Spring Break**                               |                                              |
 | *Supervised ML*        | 8        | 14        | K-Nearest Neighors and Naive Bayes             | Intro HW2                                    |
 | *Misc ML*              | 8        | 15        | Data Science Ethics                            | Quiz (will include ethics videos)            |
 | *Unsupervised ML*      | 9        | 16        | K-Means                                        |                                              |
@@ -23,11 +24,10 @@
 | *Unsupervised ML*      | 10       | 18        | DBSCAN                                         |                                              |
 | *Unsupervised ML*      | 10       | 19        | Hierarchical                                   | Quiz                                         |
 | *Unsupervised ML*      | 11       | 20        | Principal Component Analysis                   | Finding Dataset for Final Project; Intro HW3 |
-| *Misc ML*              | 11       | 21        | Topics in Data Science*                        | Quiz                                         |
+| *Misc ML*              | 11       | 21        | Topics in Data Science I*                      | Quiz                                         |
 |                        | 12       | 22        | Review                                         |                                              |
 |                        | 12       | 23        | Exam II                                        | Exam                                         |
-|                        |          |           | **Thanksgiving Break**                         |                                              |
 | *Misc ML*              | 13       | 24        | Neural Networks                                |                                              |
-| *Misc ML*              | 13       | 25        | In-Class Homework                              | (This is HW4); Quiz; Course Evals            |
+| *Misc ML*              | 13       | 25        | Topics in Data Science II*                     | Quiz; Course Evals                           |
 |                        | 14       | 26        | Review + Project                               |                                              |
-| *Misc ML*              | 14       | 27        | Data Science Communication                     | Quiz                                         |
+| *Misc ML*              | 14       | 27        | Topics in Data Science III*                    | Quiz                                         |

@@ -1,14 +1,30 @@
 # CPSC 392| Data Science
-# Fall '23
+# Spring '24
 # Syllabus
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
-## Lecture: MW 2:30pm-3:45pm (01) and 4pm-5:15pm (02), and TTh 1pm-2:15pm (03)
+## Lecture: MW 2:30pm-3:45pm (01) and 4pm-5:15pm (02), TTh 1pm-2:15pm (03), and MW 1pm-2:15pm (04)
 
-### M 10am-11:30am (ZOOM), T 2:15-3:15pm (IN-PERSON), W 1:30-2:30pm (IN-PERSON) and 6-7pm (ZOOM), Th 10-11:30am (IN-PERSON)
+## Office Hours
 
-Office Hours are in green and read "Office Hours". Class times are in Blue (and are labeled with their course #).
-<img src="https://drive.google.com/uc?export=view&id=1OYIiIahZ0t0-pm4ucIfYYG3uciacd_kZ" alt="Q"/>
+### Dr. Parlett
+- Monday 10am-11:30am (ZOOM)
+- Tuesday 2:15-4:15pm (IN-PERSON)
+- Wednesday 6-7pm (ZOOM)
+- Thursday 10-11:30am (IN-PERSON)
+
+### Caitlyn (Graduate Tutor; All via ZOOM)
+- Monday 12:30pm-2:30pm and 4:00pm - 6:30pm
+- Tuesday 4:00pm - 6:30pm
+- Thursday 3:00pm - 5:30pm
+- Friday 12:00pm - 3:30pm
+
+### Kelsey (Grader; All via ZOOM)
+- Tuesday 9:30am-10:30am
+- Friday 10am-12pm
+
+
+<img src="https://drive.google.com/uc?export=view&id=1TdDaAeAIfH-iv0rQW7PDHblXbJGQgQYI" alt="List of Office Hours"/>
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
 
 ## INSTALLS (Optional)
@@ -51,41 +67,45 @@ NONE. Optional Reading is linked on the Front Page of the Course GitHub.
 All course materials will be made available via Canvas and/or Github
 
 ## Homework, Exams, and Grading (subject to change):
-Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at 11:59pm (unless otherwise specified). Homework and Project must be turned in with a README file as either a .txt or a .md file (see Admin Folder on GitHub for a template).
+Homework will consist of assignments to reinforce material covered in class, and must be submitted electronically. They will typically be due at 11:59pm (unless otherwise specified). Homeworks and Final Project must be turned in with a README file as either a .txt or a .md file (see Admin Folder on GitHub for a template). Homework files must be turned in in the format specified (see **Collaboration Policy** below for more information).
 
 ### Late Days
-Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm.
+Stuff happens. So, you have 8 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm. **It is your responsbility** to keep track of the number of late days you have, and how many you have used.
 
-To qualify for an extra day, you must fill out the **Late Days Google Form**  linked on Canvas under the Syllabus Tab *BEFORE the assignment is due*. Fill the form out **ONCE per late day used** (e.g. if using two late days, fill out the form twice). Because of these "extra days", late work will automatically be penalized a 0.15% per hour (or part of an hour) late. You must ALSO put a comment on the assignment (in CANVAS) indicating how many late days you used (e.g. "I used 2 late days") *Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during the final project.*
+To qualify for an extra day, you must fill out the **Late Days Google Form**  linked on Canvas under the Syllabus Tab *BEFORE the assignment is due*. Fill the form out **ONCE per late day used** (e.g. if using two late days, fill out the form twice). Because of these "extra days", late work will automatically be penalized a 0.15% per hour (or part of an hour) late. You must ALSO put a comment on the assignment (in CANVAS) indicating how many late days you used (e.g. "I used 2 late days") *Because of grading deadlines, extra days CANNOT be used during finals week and may NOT prevent peer feedback during the final project.*
 
 Again, to use a Late Day:
 
 1. Fill out the Google Form
 2. Leave a Comment on your Canvas Submission
 
+Failure to follow these instructions may result in the late day not being applied.
+
 ### Assignments
-All programs must be written in **Python** unless otherwise specified, and should use the packages taught in this course. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.)
+All programs must be written in **Python** unless otherwise specified, and should use the packages taught in this course. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.). Assignments must reflect your own work, and any outside resources (including--but not limited to--tutors, websites, books, LLMs...etc.) must be cited in your README file with specific links, specific prompts (if using an LLM), or specific citations.
+
 
 ### Assessment Structure
-There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes can not be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
+There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. **You MUST be in person to take the quiz**. Missed quizzes cannot be made up at a different time. However, I will **drop your lowest 2 quiz scores**, so use these 2 dropped quizzes to account for sick days or missed classes. In addition to the two dropped quiz scores, *ONE* missed quiz during the semester (with a score of 0, due to student being absent) can be replaced with a small, extra take-home assignment. In the case of documented conflicts (such as sports) that are known in advance, the student may schedule to take the quiz at a different time **in advance**, these re-schedules quizzes must be taken the week of the quiz.
 
-There will also be two in-class exams. In-class exams must be taken on the dates specified, however *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
+There will also be two in-class exams. In-class exams must be taken **in-person** on the dates specified, however *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
 
-Finally there will NOT be a final exam, rather there will be a final project and presentation.
+Finally there will NOT be a final exam, rather there will be a final project and presentation (this will take place during the final exam time, it is expected that all students will be present, in-person during the final time).
 
 ## Course Communication
-Information for the course will mainly be disseminated through our Course Slack. YOU MUST join the course slack channel and check for updates. Email through Canvas may also be used. Materials will also be available through the course GitHub (https://github.com/cmparlettpelleriti/CPSC392ParlettPelleriti).
+Information/Announcements for the course will mainly be disseminated through our Course Slack. YOU MUST join the course slack channel and check for updates. Materials will also be available through the course GitHub (https://github.com/cmparlettpelleriti/CPSC392ParlettPelleriti).
 
 ## Course Grade:
-### Quizzes
+
+### Quizzes (Taken in Person in Class)
 20%
 ### Homeworks
 30%
-### Exam 1 
+### Exam 1 (Taken in Person in Class)
 15%
-### Exam 2 
+### Exam 2 (Taken in Person in Class)
 15%
-### Final Project
+### Final Project + Presentation
 20%
 
 | % Range  | Letter Grade |
@@ -106,7 +126,24 @@ Information for the course will mainly be disseminated through our Course Slack.
 You must score a 70 or above to receive a P when taking the course P/NP.** 
 
 ## Collaboration Policy:
-You have much to learn from your classmates, and so I encourage you to discuss and study course material together. However, all work you submit for this course must be your own, and must be completed individually unless otherwise specified. More specifically, you may not present source code or programs copied from the Internet, Large Language Models (or other AI), other texts, other students, etc as your own work. Of course, you are free to use whatever reference materials you like, but please cite them in a README turned in with your assignments. I assume you are familiar with Chapman’s policy on academic misconduct is presented below and any incidents of academic misconduct or dishonesty will be dealt with severely in accordance with this policy.
+
+### Human Collaboration
+You have much to learn from your classmates, and so I encourage you to discuss and study course material together. However, all work you submit for this course must be your own, and must be completed individually unless otherwise specified. More specifically, you **may not present source code or programs copied from the Internet, Large Language Models (or other AI), other texts, other students, etc as your own work**. Of course, you are free to use whatever reference materials you like, but please cite them in a README turned in with your assignments. I assume you are familiar with Chapman's policy on academic misconduct is presented below and any incidents of academic misconduct or dishonesty will be dealt with severely in accordance with this policy.
+
+### AI Collaboration
+AI (such as ChatGPT, and other Large Language Models) should not be used to do assignments for you (they are completely prohibited on Exams and Quizzes), however these tools are often useful for debugging code. If you use output from an AI model you must cite it in your readme in the following form:
+
+- The exact prompt(s) you put into the model
+- Any clarifications or changes you asked for from the model
+- Which part(s) of the assignment/assessment this output was used in
+
+If AI is used to the extent that the assignment is deemed to not be your own work, the assignment will not be accepted and a 0 will be given for any portion(s) deemed not your work.
+
+## Expectations and Technology 
+I expect that everyone will maintain a classroom conducive to learning. Thus, everyone is 
+expected to behave with basic politeness, civility, and respect for others. In particular, talking in class is okay if it’s part of a class discussion or with me. Private communications are not permitted, especially during exams. Neither are reading extraneous materials, using electronic equipment off task, or sleeping. As this is a Computer Science class, technology is allowed to aid in learning and understanding material. However, please do not use a personal device for any purpose unrelated to our class. All devices should be silenced. Cell phones should be put away. 
+Suggestions for improvement are welcome at any time. Any concern about the course should be 
+brought first to my attention. 
 
 ## Chapman University’s Academic Integrity Policy 
 
@@ -144,5 +181,5 @@ Religious Accommodation at Chapman University Consistent with our commitment of 
 
 ## Changes 
 
-This syllabus is subject to change only under extenuating circumstances. Updates will be posted on the course website. 
+This syllabus is subject to change only under extenuating circumstances. Updates will be posted on the course website or through Slack. 
 
