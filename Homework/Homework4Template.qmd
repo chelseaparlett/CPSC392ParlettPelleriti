@@ -1,0 +1,53 @@
+---
+title: "Homework 4"
+format: pdf
+---
+
+# Introduction
+
+Description of the problem (e.g. what are you predicting? How might this model be useful if you are successful). You should end with a sentence or two about what the impact of these models could be.
+
+# Methods
+
+describe your models in detail (as if explaining them to someone who's not a data scientist, like a CEO), as well as any pre-processing you had to do to the data.
+
+
+
+![My Caption Here](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+
+# Results
+
+Describe the performance of your models in detail.
+
+1. How do your models perform (discuss accuracy, overfitting for both train/test)? Is one model better than the other? Are you surprised by which one did better?
+2. What happens to the loss and accuracy of your train/test set as you go through all 100 epochs (include a plot of the loss over time for both train and set set, and a plot of the accuracy over time for both train and set set)?
+3. 💻 What is the job of a loss function in general? What specific **loss function** does your model use? Why is this loss function appropriate for predicting digits (0-9)
+4. 💻 What is an activation function? What activation function did we use in your Neural Network? Why is this activation function appropriate for predicting digits (0-9)
+5. The first argument in any `Dense()` layer is the number of nodes in that layer. How many nodes does your last Neural Network layer have? Why did we choose that number?
+6. If you had more complicated images, like images of pets which you're classifying as "Corgi" or "Not Corgi", do you think a logistic regression would do well? Why or Why not.
+7. What's the benefit of using Deep Neural Networks compared to simpler models like Logistic Regression, Decision Trees...etc?
+
+![My Caption Here](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+![My Caption Here](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+
+# Discussion/Reflection
+
+A few sentences about what you learned from performing these analyses, and at least one suggestion for what you'd add or do differently if you were to perform this analysis again in the future.
